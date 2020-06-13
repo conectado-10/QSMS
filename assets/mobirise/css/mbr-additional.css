@@ -660,28 +660,8 @@ section.lazy-placeholder:after {
   color: #FFD100;
 }
 .cid-PZET3FOeGC .marquee-rtl {
-  width: 100%;
-  max-width: 100%;
-  overflow: hidden;
-}
-.cid-PZET3FOeGC .marquee-rtl > :first-child {
-  display: inline-block;
-  padding-right: 2em;
-  padding-left: 100%;
-  white-space: nowrap;
-  animation: defilement-rtl 11s infinite linear;
-  animation-iteration-count: 100;
-}
-@keyframes defilement-rtl {
-  0% {
-    transform: translate3d(0, 0, 0);
-  }
-  100% {
-    transform: translate3d(-100%, 0, 0);
-  }
-}
-.cid-PZET3FOeGC .media-container-row .mbr-text {
-  color: #ffffff;
+  padding-right: 4%;
+  padding-left: 1%;
 }
 .cid-PZET3FOeGC .media-container-row .mbr-text {
   color: #ffffff;
