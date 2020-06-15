@@ -660,8 +660,21 @@ section.lazy-placeholder:after {
   color: #FFD100;
 }
 .cid-PZET3FOeGC .marquee-rtl {
-  padding-right: 4%;
+  animation: Test 11s infinite;
+  padding-right: 11%;
   padding-left: 1%;
+  animation-iteration-count: 100;
+}
+@keyframes Test {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 .cid-PZET3FOeGC .media-container-row .mbr-text {
   color: #ffffff;
