@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "page2.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "creativem4",
       "title": "CreativeM4",
@@ -28,7 +28,9 @@
       },
       "titlePreset": "Mobile App",
       "nameSelectPreset": "mobileapp",
-      "additionalSetColors": []
+      "additionalSetColors": [
+        "#7f1933"
+      ]
     },
     "path": "@PROJECT_PATH@",
     "name": "cadastro",
@@ -49,7 +51,7 @@
     "cookiesAlert": false,
     "gdpr": false,
     "uniqCompNum": 53,
-    "versionPublish": "4.12.3",
+    "versionPublish": "4.12.4",
     "screenshot": "screenshot.png"
   },
   "pages": {
@@ -67,120 +69,27 @@
           "alias": false,
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
+            "padding-bottom": "((@paddingBottom * 15px) + 50px)",
             "& when (@bg-type = 'color')": {
-              "background": "@bg-value",
-              "& when (@gradientBg)": {
-                "background": "linear-gradient(90deg, @bg-value, @color2)"
-              }
+              "background-color": "@bg-value"
             },
-            ".mbr-section": {
-              "text-align": "center",
-              "color": "#fff"
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
             },
-            "p": {
-              "display": "inline",
-              "font-size": "unit(@sizetext, px)",
-              "color": "#FFD100",
-              "& when (@showneon)": {
-                "& when (@effectstyle = 'stroke')": {
-                  "text-shadow": "-1px -1px 0 @textshadow, 1px -1px 0 @textshadow, -1px 1px 0 @textshadow, 1px 1px 0 @textshadow, 1px 1px 10px #141414"
-                },
-                "& when (@effectstyle = 'neon')": {
-                  "text-shadow": "0 0 2px @textshadow, 0 0 30px @textshadow, 0px 0px 5px @textshadow, 0 0 150px @textshadow"
-                },
-                "& when (@effectstyle = 'offset')": {
-                  "text-shadow": "4px 4px 0px @textshadow, 7px 7px 0px rgba(0, 0, 0, 0.2)"
-                },
-                "& when (@effectstyle = '3d')": {
-                  "text-shadow": "@textshadow 3px 5px 0, @3dcolor1 4px 6px 3px, @3dcolor2 8px 11px 10px"
-                }
-              }
+            "svg": {
+              "overflow": "hidden",
+              "vertical-align": "middle",
+              "position": "absolute",
+              "bottom": "0"
             },
-            "& when (@Style = 'defile')": {
-              ".marquee-rtl": {
-                "width": "unit(@wdtext, %)",
-                "max-width": "100%",
-                "overflow": "hidden"
-              },
-              ".marquee-rtl > :first-child": {
-                "display": "inline-block",
-                "padding-right": "2em",
-                "padding-left": "100%",
-                "white-space": "nowrap",
-                "animation": "defilement-rtl (@speedtext * 1s) infinite linear",
-                "animation-iteration-count": "(@counttext * 1)"
-              },
-              "& when (@moussehover)": {
-                ".marquee-rtl:hover :first-child": {
-                  "animation-play-state": "paused"
-                }
-              },
-              "@keyframes defilement-rtl": {
-                "0%": {
-                  "transform": "translate3d(0, 0, 0)"
-                },
-                "100%": {
-                  "transform": "translate3d(-100%, 0, 0)"
-                }
-              },
-              ".media-container-row .mbr-text": {
-                "color": "#ffffff"
-              }
-            },
-            "& when (@Style = 'blink')": {
-              ".marquee-rtl": {
-                "animation": "Test (@speedtext * 1s) infinite",
-                "padding-right": "unit(@rightpad, %)",
-                "padding-left": "unit(@leftpad, %)",
-                "animation-iteration-count": "(@counttext * 1)"
-              },
-              "@keyframes Test": {
-                "0%": {
-                  "opacity": "1"
-                },
-                "50%": {
-                  "opacity": "0"
-                },
-                "100%": {
-                  "opacity": "1"
-                }
-              }
-            },
-            "& when (@Style = 'fix')": {
-              ".marquee-rtl": {
-                "padding-right": "unit(@rightpad, %)",
-                "padding-left": "unit(@leftpad, %)"
-              }
-            },
-            "& when (@Style = 'pulse')": {
-              ".marquee-rtl": {
-                "-webkit-animation": "Test (@speedtext * 1s) ease-out",
-                "-webkit-animation-iteration-count": "infinite",
-                "opacity": "0.5",
-                "padding-right": "unit(@rightpad, %)",
-                "padding-left": "unit(@leftpad, %)"
-              },
-              "@-webkit-keyframes Test": {
-                "0%": {
-                  "opacity": "0.5"
-                },
-                "50%": {
-                  "opacity": "1.0"
-                },
-                "100%": {
-                  "opacity": "0.5"
-                }
-              }
-            },
-            ".media-container-row .mbr-text": {
-              "color": "#ffffff"
+            ".wave": {
+              "fill": "@waveColor"
             }
           },
           "_name": "design-block",
-          "_customHTML": "<section mbr-id=\"_anchor\" class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n<header>Banner Config</header>\n              <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n       <input type=\"range\" inline title=\"Text Zoom\" name=\"sizetext\" min=\"10\" max=\"70\" step=\"1\" value=\"39\">\n             <input type=\"checkbox\" title=\"Text Effect\" name=\"showneon\">\n          <select title=\"Effect Style\" name=\"effectstyle\" condition=\"showneon\">\n          <option value=\"3d\">3D</option>\n            <option value=\"neon\">Neon</option>\n                    <option value=\"offset\">Offset</option>\n         <option value=\"stroke\" selected>Stroke</option>\n          \t</select>\n      <input type=\"color\" name=\"textshadow\" title=\"Color Shadow 1\" value=\"#f7ed4a\" selected condition=\"showneon\">\n      <input type=\"color\" name=\"dcolor1\" title=\"Color Shadow 2\" value=\"#c1c1c1\" condition=\"showneon&&effectstyle=='3d'\">\n      <input type=\"color\" name=\"dcolor2\" title=\"Color Shadow 3\" value=\"#232323\" condition=\"showneon&&effectstyle=='3d'\">\n\n      <hr>\n      <input type=\"checkbox\" title=\"Show Start Logo\" name=\"showLogo1\" checked>\n       <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize1\" min=\"1\" max=\"100\" step=\"0.5\" value=\"14\" condition=\"showLogo1\">\n       <input type=\"checkbox\" title=\"Show End Logo\" name=\"showLogo2\">\n       <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize2\" min=\"1\" max=\"100\" step=\"0.5\" value=\"5\" condition=\"showLogo2\">\n       <hr>\n        <select title=\"Style\" name=\"Style\">\n          <option value=\"fix\">Fixed</option>\n         <option value=\"blink\">Blink</option>\n            <option value=\"defile\" selected>Defile</option>\n          <option value=\"pulse\">Pulse</option>\n          \t</select>\n      \n      <input type=\"range\" inline title=\"Left Padding\" name=\"leftpad\" min=\"1\" max=\"100\" step=\"1\" value=\"1\" condition=\"Style=='blink'||Style=='fix'||Style=='pulse'\">\n      <input type=\"range\" inline title=\"Right Padding\" name=\"rightpad\" min=\"1\" max=\"100\" step=\"1\" value=\"11\" condition=\"Style=='blink'||Style=='fix'||Style=='pulse'\">\n        <input type=\"range\" inline title=\"Speed\" name=\"speedtext\" min=\"1\" max=\"50\" step=\"1\" value=\"11\" condition=\"Style=='blink'||Style=='defile'||Style=='pulse'\">\n       <input type=\"range\" inline title=\"Text Area\" name=\"wdtext\" min=\"1\" max=\"100\" step=\"1\" value=\"100\" condition=\"Style=='defile'\">\n      <input type=\"range\" inline title=\"Iteration\" name=\"counttext\" min=\"1\" max=\"100\" step=\"1\" value=\"100\" condition=\"Style=='blink'||Style=='defile'||Style=='pulse'\">\n\n      \n        <input type=\"checkbox\" title=\"Mouse Hover\" name=\"moussehover\" condition=\"Style=='defile'\">\n       \n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n        <input type=\"color\" title=\"Background Color\" value=\"#121525\" selected>\n       </fieldset>\n       <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"bg.type == 'color'\" checked>\n       <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#232323\" condition=\"bg.type=='color'&&gradientBg\">\n\n\n    <!-- End block parameters -->\n    </mbr-parameters> \n  \n <div class=\"media-container-row\">\n   \n    <div class=\"marquee-rtl mbr-text\">\n\n  \n  <div>\n<span mbr-if=\"showLogo1\"><a href=\"tel:22999729838\"><img src=\"@PROJECT_PATH@/assets/images/aqui.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize1 + 'rem'}\" title></a>\n</span>\n <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".media-container-row .mbr-text\" data-app-placeholder=\"Type Text\">&nbsp; &nbsp; &nbsp;</p>  \n<span mbr-if=\"showLogo2\"><a href=\"https://mobirise.com\"><img src=\"../_images/logo2.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize2 + 'rem'}\" title></a>\n</span>\n      <div>\n\n   \n   \n   </div>\n</div>\n\n</div></div></section>",
-          "_cid": "PZET3FOeGC",
-          "_anchor": "design-block-PZET3FOeGC",
+          "_customHTML": "<section class=\"header1\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Wave Color\" name=\"waveColor\" value=\"#ffffff\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/mbr-2.jpg\" parallax selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#7f1933\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title align-center mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">CADASTRO</h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                    Beautiful mobile websites\n                </h3>\n                <p class=\"mbr-text align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    Veja o que você Gostaria de cadastrar</p>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">\n                        LEARN MORE</a></div>\n            </div>\n        </div>\n    </div>\n\n  <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1428.75 62.05\">\n    <path class=\"wave\" d=\"M-114,132s185,44,434,18c0,0,304-41,551,0,0,0,290.5,57.25,443.75.13v43.69H-114Z\" transform=\"translate(114 -131.78)\"></path>\n  </svg>\n  \n</section>",
+          "_cid": "7ocqm9Qx63",
+          "_anchor": "design-block-7ocqm9Qx63",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
