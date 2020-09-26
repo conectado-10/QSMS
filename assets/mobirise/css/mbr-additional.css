@@ -2123,24 +2123,6 @@ background-color: @bgColor;
 }
 }
 
-.cid-ryHJautaoZ {
-@paddingTop: 1;
-@paddingBottom: 1;
-@bgColor: #232323;
-@tColor: #ffffff;
-
-padding-top: (@paddingTop * 15px);
-padding-bottom: (@paddingBottom * 15px);
-background-color: @bgColor;
-.inner-header {
-  color: @tColor;
-  background-color: @bgColor;
-}
-.inner-header-link {
-  color: @tColor;
-}
-}
-
 .cid-Ff0qA459q3 {
 @Whatbutton: true;
 @heightwhat: 58;
