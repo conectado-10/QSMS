@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "page2.html",
+    "currentPage": "page5.html",
     "theme": {
       "name": "creativem4",
       "title": "CreativeM4",
@@ -50,7 +50,7 @@
     "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "uniqCompNum": 65,
+    "uniqCompNum": 67,
     "versionPublish": "4.12.4",
     "screenshot": "screenshot.png"
   },
@@ -2743,6 +2743,29 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "_params": {
+            "HTMLCode": "<script src=\"https://www.mercadopago.com.br/integrations/v1/web-payment-checkout.js\"\ndata-preference-id=\"182607936-ba5a4921-a25c-487c-ba95-0841e057a4e2\">\n</script>\n\n",
+            "hideOnPublish": false,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "HTMLCode": "<script src=\"https://www.mercadopago.com.br/integrations/v1/web-payment-checkout.js\"\ndata-preference-id=\"182607936-ba5a4921-a25c-487c-ba95-0841e057a4e2\">\n</script>\n\n",
+          "alias": "witsec-custom-html",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "witsec-custom-html-block",
+          "_anchor": "witsec-custom-html-block-1u"
         }
       ]
     }
