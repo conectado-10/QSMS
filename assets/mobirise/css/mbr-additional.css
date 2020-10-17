@@ -2088,8 +2088,8 @@ section.lazy-placeholder:after {
   color: #149dcc;
 }
 .cid-H5rudwhnjw .fadeInUp {
-  -webkit-animation-name: wobble;
-  animation-name: wobble;
+  -webkit-animation-name: fadeInUpBig;
+  animation-name: fadeInUpBig;
 }
 .cid-UFVuRg2mFj .float {
   position: fixed;
