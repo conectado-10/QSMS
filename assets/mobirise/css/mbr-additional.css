@@ -705,7 +705,7 @@ section.lazy-placeholder:after {
 .cid-WACdhWFwF0 {
   padding-top: 90px;
   padding-bottom: 90px;
-  background: linear-gradient(0deg, #232323, #ff3366);
+  background: linear-gradient(26deg, #ffffff, #ffffff);
 }
 .cid-WACdhWFwF0 .b-0 {
   bottom: 0;
@@ -772,17 +772,17 @@ section.lazy-placeholder:after {
 }
 .cid-WACdhWFwF0 .badge-primary {
   color: #fff;
-  background-color: #ff3366;
+  background-color: #7f1933;
 }
 .cid-WACdhWFwF0 a.badge-primary:hover,
 .cid-WACdhWFwF0 a.badge-primary:focus {
   color: #fff;
-  background-color: #008cff;
+  background-color: #ffffff;
 }
 .cid-WACdhWFwF0 a.badge-primary:focus,
 .cid-WACdhWFwF0 a.badge-primary.focus {
   outline: 0;
-  box-shadow: 0 0 0 0.2rem #008cff;
+  box-shadow: 0 0 0 0.2rem #ffffff;
 }
 .cid-WACdhWFwF0 .badge {
   border: 1px solid #000;
