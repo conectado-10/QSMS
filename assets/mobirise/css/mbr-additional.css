@@ -1308,6 +1308,39 @@ section.lazy-placeholder:after {
 .cid-sy9f3kZ5w1 .navbar-dropdown .navbar-brand span {
   vertical-align: middle;
 }
+.cid-w1Nv3l4Yj9 {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background: linear-gradient(to right, #00ac6d 0%, #00ac6d 30%, #4e84c2 30%, #4e84c2 100%);
+  overflow: hidden !important;
+}
+.cid-w1Nv3l4Yj9 .animated-element {
+  color: #efefef;
+}
+.cid-w1Nv3l4Yj9 .img-block {
+  align-self: center;
+}
+.cid-w1Nv3l4Yj9 .mbr-section-subtitle {
+  color: #efefef;
+}
+@media (min-width: 992px) {
+  .cid-w1Nv3l4Yj9 .img-block {
+    padding-right: 2rem;
+  }
+}
+@media (max-width: 767px) {
+  .cid-w1Nv3l4Yj9 .mbr-figure {
+    margin-top: 1rem;
+  }
+}
+@media (max-width: 768px) {
+  .cid-w1Nv3l4Yj9 {
+    background: #4e84c2;
+  }
+  .cid-w1Nv3l4Yj9 .img-block {
+    padding-bottom: 2rem;
+  }
+}
 .cid-rZCwrfhTYh {
   padding-top: 15px;
   padding-bottom: 0px;
