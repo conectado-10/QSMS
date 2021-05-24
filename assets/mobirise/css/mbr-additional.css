@@ -4716,3 +4716,53 @@ h3, h4 {
     padding: 2rem !important;
   }
 }
+.cid-symY3LiHqI {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #3b529f;
+}
+.cid-symY3LiHqI .mbr-section {
+  text-align: center;
+  color: #fff;
+}
+.cid-symY3LiHqI .card {
+  background-color: #4a6ad6;
+}
+.cid-symY3LiHqI .text-color {
+  color: #eeeeee !important;
+}
+.cid-symY3LiHqI .form-control {
+  display: block;
+  width: 100%;
+  height: calc(4em);
+  padding: .75rem 1.25rem;
+  font-size: .875rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #696973;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #d5d5dc;
+  border-radius: .375rem;
+  box-shadow: none;
+  transition: all 0.3s ease;
+}
+.cid-symY3LiHqI .btn {
+  background-color: #4a6ad6;
+  display: inline-block;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: .75rem 1.75rem;
+  font-size: .875rem;
+  line-height: 1.1;
+  border-radius: .375rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}

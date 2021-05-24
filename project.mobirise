@@ -51,7 +51,7 @@
     "siteUrl": "HTTP://QSMS.COM",
     "cookiesAlert": false,
     "gdpr": false,
-    "uniqCompNum": 116,
+    "uniqCompNum": 120,
     "versionPublish": "4.12.4",
     "screenshot": "screenshot.png"
   },
@@ -5112,6 +5112,73 @@
           "_once": false,
           "_params": {},
           "_anchor": "features02-37"
+        },
+        {
+          "alias": "Singa4real-mobishop/components",
+          "_isSecondary": true,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section": {
+              "text-align": "center",
+              "color": "#fff"
+            },
+            ".card": {
+              "background-color": "@tColor"
+            },
+            ".text-color": {
+              "color": "#eeeeee !important"
+            },
+            ".form-control": {
+              "display": "block",
+              "width": "100%",
+              "height": "calc((1em + 1rem) + 2px)",
+              "padding": ".75rem 1.25rem",
+              "font-size": ".875rem",
+              "font-weight": "400",
+              "line-height": "1.5",
+              "color": "#696973",
+              "background-color": "#fff",
+              "background-clip": "padding-box",
+              "border": "1px solid #d5d5dc",
+              "border-radius": ".375rem",
+              "box-shadow": "none",
+              "transition": "all 0.3s ease"
+            },
+            ".btn": {
+              "background-color": "@tColor",
+              "display": "inline-block",
+              "font-weight": "500",
+              "color": "#fff",
+              "text-align": "center",
+              "vertical-align": "middle",
+              "cursor": "pointer",
+              "-webkit-user-select": "none",
+              "-moz-user-select": "none",
+              "-ms-user-select": "none",
+              "user-select": "none",
+              "border": "1px solid transparent",
+              "padding": ".75rem 1.75rem",
+              "font-size": ".875rem",
+              "line-height": "1.1",
+              "border-radius": ".375rem",
+              "transition": "color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out"
+            }
+          },
+          "_name": "gen-invoice",
+          "_customHTML": "<section mbr-id=\"_anchor\" class=\"mbr-section article invoice-gen\" plugins=\"Singa4real-mobishop\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Theme Color\" name=\"tColor\" value=\"#4a6ad6\">\n              <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background5.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#3b529f\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#3b529f\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"1\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n  \n  \n    <div class=\"container mt-3\">\n    <div class=\"row\">\n        <div class=\"col-xl-10 col-lg-12 mx-auto\">\n            <div class=\"card p-4 px-5\">\n                <h3 class=\"text-white\">Generate Invoice</h3>\n                <div class=\"form-group bg-white border rounded px-2 py-2 mb-2\">\n                    <div class=\"row\">\n                        <div class=\"col\"> <input type=\"text\" name=\"tid\" class=\"form-control pr-3 shadow-none bg-transparent border-0 shoptid\" placeholder=\"Enter Transaction ID\"> </div>\n                        <div class=\"col-auto pr-5\"> <button type=\"button\" class=\"geninvoice btn btn-block mr-3\"><i mbr-icon class=\"fas mr-2 fa-paper-plane far fa-fw\"></i>Generate</button> </div>\n                    </div>\n                </div> <span class=\"mb-4 text-color\">Input Your Transaction number, and click on generate button, to generate invoice.</span>\n            </div>\n        </div>\n    </div>\n</div>\n  \n  <div class=\"modal fade\" id=\"singa4realinvoiceModal\" tabindex=\"-1\" aria-labelledby=\"singa4realinvoiceModal\" aria-modal=\"true\" role=\"dialog\">\n    <div class=\"modal-dialog modal-lg\" style=\"height:auto\" role=\"document\">\n        <div class=\"modal-content\">\n            <div class=\"modal-header\">\n                <h6 class=\"modal-title\" id=\"exampleModalLabel\">Invoice Generator</h6>\n                <button type=\"button\" class=\"close\" aria-label=\"Close\" data-dismiss=\"modal\">\n                    <span aria-hidden=\"true\">×</span>\n                </button>\n            </div>\n            <div class=\"modal-body invoice-content\">\n             \n            </div>\n           \n        </div>\n    </div>\n</div>\n</section>",
+          "_cid": "symY3LiHqI",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "gen-invoice-3b"
         }
       ]
     }
