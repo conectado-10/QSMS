@@ -5,4 +5,10 @@
 	<url>
 		<loc>HTTP://QSMS.COM/page1.html</loc>
 	</url>
+	<url>
+		<loc>HTTP://QSMS.COM/page2.html</loc>
+	</url>
+	<url>
+		<loc>HTTP://QSMS.COM/page3.html</loc>
+	</url>
 </urlset>
