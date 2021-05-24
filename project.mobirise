@@ -51,7 +51,7 @@
     "siteUrl": "HTTP://QSMS.COM",
     "cookiesAlert": false,
     "gdpr": false,
-    "uniqCompNum": 104,
+    "uniqCompNum": 106,
     "versionPublish": "4.12.4",
     "screenshot": "screenshot.png"
   },
@@ -2699,13 +2699,95 @@
             }
           },
           "_name": "design-block",
-          "_customHTML": "<section group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"25\" step=\"1\" value=\"10\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"25\" step=\"1\" value=\"12\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\" checked>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"file:///C:/Users/Csaba/AppData/Local/Mobirise.com/Mobirise/chesswizardextra_0040gmail_002ecom/userblocks/mobirise4/header06_1/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#716c80\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n\n\n\n\n\n    <div class=\"container align-center\">\n        <div class=\"row\">\n            <div class=\"col-md-12 col-lg-6 py-5 m-auto\">\n                <h1 class=\"mbr-section-title mbr-regular pb-3 align-left mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n<div><span style=\"font-size: 3rem;\"><b>AMIGO DO PEITO</b></span><br></div></h1>\n                <h3 class=\"mbr-section-subtitle align-left align-left mbr-regular pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubTitle\">Lorem ipsum dolor sit amet, consectetur adipiscing\n                    elit.</h3>\n                <p class=\"mbr-text mbr-light pb-3 align-left mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Click e verifique em BREVE</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"align-left mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-secondary\" href=\"index.html\" data-app-placeholder=\"Type Text\">ARQUIVO</a> <a class=\"btn btn-md btn-secondary\" href=\"index.html\" data-app-placeholder=\"Type Text\">ENVIAR</a></div>\n            </div>\n\n            <div class=\"col-lg-6 col-md-12 relative align-right\">\n                <img class=\"img1\" src=\"@PROJECT_PATH@/assets/images/mbr-4.jpg\" alt=\"Mobirise\" title>\n                <img class=\"img2\" src=\"@PROJECT_PATH@/assets/images/group-1121.png\" alt=\"Mobirise\" title>\n\n            </div>\n        </div>\n\n\n\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
+          "_customHTML": "<section group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"25\" step=\"1\" value=\"10\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"25\" step=\"1\" value=\"12\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"file:///C:/Users/Csaba/AppData/Local/Mobirise.com/Mobirise/chesswizardextra_0040gmail_002ecom/userblocks/mobirise4/header06_1/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#716c80\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n\n\n\n\n\n    <div class=\"container align-center\">\n        <div class=\"row\">\n            <div class=\"col-md-12 col-lg-6 py-5 m-auto\">\n                <h1 class=\"mbr-section-title mbr-regular pb-3 align-left mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n<div><span style=\"font-size: 3rem;\"><b>AMIGO DO PEITO</b></span><br></div></h1>\n                <h3 class=\"mbr-section-subtitle align-left align-left mbr-regular pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubTitle\">Lorem ipsum dolor sit amet, consectetur adipiscing\n                    elit.</h3>\n                <p class=\"mbr-text mbr-light pb-3 align-left mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Click e verifique em BREVE</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"align-left mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-secondary\" href=\"index.html\" data-app-placeholder=\"Type Text\">ARQUIVO</a> <a class=\"btn btn-md btn-secondary\" href=\"index.html\" data-app-placeholder=\"Type Text\">ENVIAR</a></div>\n            </div>\n\n            <div class=\"col-lg-6 col-md-12 relative align-right\">\n                <img class=\"img1\" src=\"@PROJECT_PATH@/assets/images/mbr-4.jpg\" alt=\"Mobirise\" title>\n                <img class=\"img2\" src=\"@PROJECT_PATH@/assets/images/group-1121.png\" alt=\"Mobirise\" title>\n\n            </div>\n        </div>\n\n\n\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
           "_cid": "3xzgCYhwm8",
           "_anchor": "design-block-3xzgCYhwm8",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "alias": "Singa4real-mobishop/components",
+          "_isSecondary": true,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section": {
+              "text-align": "center",
+              "color": "#fff"
+            },
+            ".showcartimg": {
+              "cursor": "pointer",
+              "height": "40px",
+              "width": "40px"
+            },
+            ".image-div": {
+              "text-align": "right"
+            },
+            "h3.h3": {
+              "text-align": "center",
+              "margin": "1em",
+              "text-transform": "capitalize",
+              "font-size": "1.7em"
+            },
+            "body": {
+              "background-color": "#eeeeee"
+            },
+            ".product": {
+              "padding": "10px",
+              "background-color": "#fff",
+              "position": "relative"
+            },
+            ".about h4": {
+              "margin-bottom": "-3px"
+            },
+            ".about h3": {
+              "color": "@tColor"
+            },
+            ".about span": {
+              "font-size": "13px"
+            },
+            ".dot": {
+              "height": "40px",
+              "width": "40px",
+              "background-color": "@tColor",
+              "border-radius": "50%",
+              "display": "flex",
+              "justify-content": "center",
+              "align-items": "center",
+              "position": "absolute",
+              "cursor": "pointer",
+              "right": "10%",
+              "z-index": "10",
+              "bottom": "-5%"
+            },
+            ".inner-dot": {
+              "height": "30px",
+              "width": "30px",
+              "background-color": "#fff",
+              "border-radius": "50%",
+              "display": "flex",
+              "justify-content": "center",
+              "align-items": "center",
+              "position": "absolute",
+              "cursor": "pointer"
+            }
+          },
+          "_name": "furniture",
+          "_customHTML": "<section mbr-id=\"_anchor\" plugins=\"Singa4real-mobishop\" class=\"mbr-section shopfront4 content1\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Theme Color\" name=\"tColor\" value=\"#000000\">\n       <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n      <input type=\"checkbox\" title=\"Show Cart Image\" name=\"showCart\" checked>\n      <input type=\"range\" inline title=\"Product No\" name=\"ProductCount\" min=\"4\" max=\"32\" step=\"1\" value=\"4\">\n      <select title=\"Product ID\" name=\"Proid\">\n            <option value=\"1\">Update Product ID</option>\n            <option value=\"2\" selected>Save Product ID</option>\n        </select>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background5.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n \n<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n  \n<div class=\"container mt-5\">\n <div class=\"text-right image-div\" mbr-if=\"showCart\"><img class=\"showcartimg\" data-toggle=\"modal\" data-target=\"#singa4realcartModal\" src=\"@PROJECT_PATH@/assets/images/slack-apps-platform-icon-176109.png\" alt title></div>    \n      <div class=\"border-bottom mb-3\">\n    <h3 class=\"h3\" mbr-if=\"showTitle\"><p><b>AMIGO DO PEITO</b></p><p>Enviados 24/05/2021&nbsp; &nbsp;</p></h3>\n      </div>  \n    <div class=\"row d-flex justify-content-center g-1\" mbr-list mbr-list-grow=\"ProductCount\">\n        <div class=\"col-md-6 col-sm-12 col-lg-3 cart-item mt-3\">\n            <div class=\"product text-center\"> <img src=\"@PROJECT_PATH@/assets/images/microsoft-office-excel-logo-icon-145720.png\" width=\"100%\" alt title>\n               <input type=\"hidden\" class=\"product-quantity\" name=\"quantity\" value=\"1\" size=\"2\">\n                      <span mbr-class=\"{'product-code': Proid == '1',\n                             'product-code d-none': Proid == '2'}\" mbr-text>P005</span>\n                <div class=\"about text-left px-3\">\n                    <h4>RENATO GADELHA</h4> <span class=\"text-muted\" mbr-text>AMIGO DO PEITO</span>\n                    <h3>P-52</h3>\n                </div> <span class=\"dot\"><span class=\"inner-dot singa4real-add-to-cart\"><i class=\"fa fa-plus\"></i></span></span>\n            </div>\n        </div>\n        <div class=\"col-md-6 col-sm-12 col-lg-3 cart-item mt-3\">\n            <div class=\"product text-center\"> <img src=\"@PROJECT_PATH@/assets/images/microsoft-office-excel-logo-icon-145720.png\" width=\"100%\" alt title>\n               <input type=\"hidden\" class=\"product-quantity\" name=\"quantity\" value=\"1\" size=\"2\">\n                      <span mbr-class=\"{'product-code': Proid == '1',\n                             'product-code d-none': Proid == '2'}\" mbr-text>P006</span>\n                <div class=\"about text-left px-3\">\n                    <h4>PATRICK CORDEIRO</h4> <span class=\"text-muted\" mbr-text>AMIGO DO PEITO</span>\n                    <h3>P-54</h3>\n                </div> <span class=\"dot\"><span class=\"inner-dot singa4real-add-to-cart\"><i class=\"fa fa-plus\"></i></span></span>\n            </div>\n        </div>\n        <div class=\"col-md-6 col-sm-12 col-lg-3 cart-item mt-3\">\n            <div class=\"product text-center\"> <img src=\"@PROJECT_PATH@/assets/images/microsoft-office-excel-logo-icon-145720.png\" width=\"100%\" alt title>\n               <input type=\"hidden\" class=\"product-quantity\" name=\"quantity\" value=\"1\" size=\"2\">\n                      <span mbr-class=\"{'product-code': Proid == '1',\n                             'product-code d-none': Proid == '2'}\" mbr-text>P007</span>\n                <div class=\"about text-left px-3\">\n                    <h4>Dura Chair</h4> <span class=\"text-muted\" mbr-text>Home decor</span>\n                    <h3>P-55</h3>\n                </div> <span class=\"dot\"><span class=\"inner-dot singa4real-add-to-cart\"><i class=\"fa fa-plus\"></i></span></span>\n            </div>\n        </div>\n      <div class=\"col-md-6 col-sm-12 col-lg-3 cart-item mt-3\">\n            <div class=\"product text-center\"> <img src=\"@PROJECT_PATH@/assets/images/microsoft-office-excel-logo-icon-145720.png\" width=\"100%\" alt title>\n               <input type=\"hidden\" class=\"product-quantity\" name=\"quantity\" value=\"1\" size=\"2\">\n                      <span mbr-class=\"{'product-code': Proid == '1',\n                             'product-code d-none': Proid == '2'}\" mbr-text>P008</span>\n                <div class=\"about text-left px-3\">\n                    <h4>Trodon2 Chair</h4> <span class=\"text-muted\" mbr-text>Home decor</span>\n                    <h3>P-62</h3>\n                </div> <span class=\"dot\"><span class=\"inner-dot singa4real-add-to-cart\"><i class=\"fa fa-plus\"></i></span></span>\n            </div>\n        </div>\n      \n    </div>\n</div>\n  \n <div mbr-text class=\"text-center mt-5\">Grupo Conectado</div>\n</section>",
+          "_cid": "sylocUWjb8",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "furniture-2x"
         },
         {
           "alias": false,
