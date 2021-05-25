@@ -6337,8 +6337,7 @@ h3, h4 {
 .cid-syqJ7plRoW {
   padding-top: 120px;
   padding-bottom: 0px;
-  background: #00c48c;
-  background: linear-gradient(90deg, #00c48c, #c2b2d6);
+  background: #ffffff;
 }
 .cid-syqJ7plRoW .card-wrap {
   margin-bottom: 3rem;
@@ -6452,6 +6451,10 @@ h3, h4 {
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
   }
+}
+.cid-syqJ7plRoW .underline,
+.cid-syqJ7plRoW .mbr-title {
+  color: #000000;
 }
 .cid-Lk3Ovkc9QO {
   background-color: #c1c1c1;
