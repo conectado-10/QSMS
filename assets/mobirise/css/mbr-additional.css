@@ -1391,76 +1391,6 @@ section.lazy-placeholder:after {
   padding: 0;
   margin: 0;
 }
-.cid-w8x3faVysl {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  background-color: #ffffff;
-}
-.cid-w8x3faVysl .mbr-text {
-  color: #767676;
-}
-.cid-w8x3faVysl h4 {
-  text-align: center;
-}
-.cid-w8x3faVysl p {
-  text-align: center;
-}
-.cid-w8x3faVysl .badge {
-  position: relative;
-  width: 200px;
-  display: inline-block;
-  margin: 0 20px 20px 20px;
-}
-.cid-w8x3faVysl .badge svg {
-  width: 200px;
-}
-.cid-w8x3faVysl .title {
-  position: absolute;
-  top: -28px;
-  border-radius: 8px 8px 0 0;
-  text-align: center;
-  width: 100%;
-  padding: 20px 0;
-  color: #232323;
-}
-.cid-w8x3faVysl .subtitle {
-  position: absolute;
-  width: 100%;
-  text-align: center;
-  color: #ffffff;
-  top: 100px;
-}
-.cid-w8x3faVysl .stars {
-  position: absolute;
-  width: 100%;
-  text-align: center;
-  color: #ffffff;
-  top: 140px;
-}
-.cid-w8x3faVysl .cBadge1 .title {
-  background: #dc514e;
-}
-.cid-w8x3faVysl .cBadge1 .subtitle:after {
-  color: #dc514e;
-}
-.cid-w8x3faVysl .cBadge2 .title {
-  background: #2ecc71;
-}
-.cid-w8x3faVysl .cBadge2 .subtitle:after {
-  color: #2ecc71;
-}
-.cid-w8x3faVysl .cBadge3 .title {
-  background: #95a5a6;
-}
-.cid-w8x3faVysl .cBadge3 .subtitle:after {
-  color: #95a5a6;
-}
-.cid-w8x3faVysl .cBadge4 .title {
-  background: #f1c40f;
-}
-.cid-w8x3faVysl .cBadge4 .subtitle:after {
-  color: #f1c40f;
-}
 .cid-38XhuDIPNV {
   padding-top: 90px;
   padding-bottom: 90px;
@@ -1860,12 +1790,12 @@ section.lazy-placeholder:after {
   margin: 0px;
   position: fixed;
   Right: -119px;
-  top: 0px;
+  top: 196px;
   width: 200px;
 }
 .cid-Sot42Fd8pN .sticky li {
   list-style-type: none;
-  background-color: #cccccc;
+  background-color: #133996;
   color: #efefef;
   height: 43px;
   padding: 0px;
@@ -1879,7 +1809,7 @@ section.lazy-placeholder:after {
   -webkit-filter: grayscale(100%);
 }
 .cid-Sot42Fd8pN .sticky li:hover {
-  margin-left: -100px;
+  margin-left: -280px;
   filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 1 0\'/></filter></svg>#grayscale");
   -webkit-filter: grayscale(0%);
 }
@@ -4714,6 +4644,78 @@ h3, h4 {
 @media (max-width: 576px) {
   .cid-symQyFY3Zx .card {
     padding: 2rem !important;
+  }
+}
+.cid-synpJTbLMy {
+  padding-top: 120px;
+  padding-bottom: 90px;
+  background-image: url("../../../assets/images/background4.jpg");
+}
+.cid-synpJTbLMy .container {
+  backdrop-filter: blur(10px);
+  border: 1px solid white;
+  padding: 15px;
+}
+.cid-synpJTbLMy .mbr-overlay {
+  background: linear-gradient(90deg, #149dcc, #b2ccd2);
+}
+.cid-synpJTbLMy .mbr-section-btn {
+  margin-left: -0.8rem;
+}
+.cid-synpJTbLMy .text-content {
+  padding-right: 1.5rem;
+}
+.cid-synpJTbLMy .mbr-text,
+.cid-synpJTbLMy .mbr-section-btn {
+  color: #767676;
+}
+.cid-synpJTbLMy .mbr-figure img {
+  -webkit-box-shadow: 0px 0px 30px rgba(244, 242, 241, 0.3);
+  box-shadow: 0px 0px 30px rgba(244, 242, 241, 0.3);
+  border-radius: .25rem;
+}
+.cid-synpJTbLMy .counter-container {
+  padding: 1rem 0;
+  position: relative;
+}
+.cid-synpJTbLMy .counter-container ul {
+  margin-bottom: 0;
+  padding-left: 1.5rem;
+}
+.cid-synpJTbLMy .counter-container ul li {
+  margin-bottom: 1rem;
+  list-style: none;
+}
+.cid-synpJTbLMy .counter-container ul li:before {
+  font-family: MobiriseIcons !important;
+  content: '\e966';
+  position: absolute;
+  left: 0px;
+  padding-top: 2px;
+  display: inline-block;
+  text-align: center;
+  margin: 4px 0px;
+  line-height: 10px;
+  transition: all .2s;
+  width: 16px;
+  height: 16px;
+  font-size: 16px !important;
+  font-weight: 500;
+  background: none;
+  color: #188ef4;
+}
+@media (max-width: 991px) {
+  .cid-synpJTbLMy .main-row {
+    margin: 0;
+  }
+  .cid-synpJTbLMy .mbr-section-title,
+  .cid-synpJTbLMy .mbr-text,
+  .cid-synpJTbLMy .list,
+  .cid-synpJTbLMy .mbr-section-btn {
+    text-align: center !important;
+  }
+  .cid-synpJTbLMy .text-content {
+    padding: 0;
   }
 }
 .cid-wZ3IyiTDM8 .modal-dialog {
