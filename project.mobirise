@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "page6.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "creativem4",
       "title": "CreativeM4",
@@ -51,7 +51,7 @@
     "siteUrl": "HTTP://QSMS.COM",
     "cookiesAlert": false,
     "gdpr": false,
-    "uniqCompNum": 139,
+    "uniqCompNum": 140,
     "versionPublish": "4.12.4",
     "screenshot": "screenshot.png"
   },
@@ -1577,6 +1577,29 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "_params": {
+            "HTMLCode": "<!--Start of Tawk.to Script-->\n<script type=\"text/javascript\">\nvar Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();\n(function(){\nvar s1=document.createElement(\"script\"),s0=document.getElementsByTagName(\"script\")[0];\ns1.async=true;\ns1.src='https://embed.tawk.to/5ff2332adf060f156a93ec9a/1er51fnq0';\ns1.charset='UTF-8';\ns1.setAttribute('crossorigin','*');\ns0.parentNode.insertBefore(s1,s0);\n})();\n</script>\n<!--End of Tawk.to Script-->",
+            "hideOnPublish": true,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "HTMLCode": "<!--Start of Tawk.to Script-->\n<script type=\"text/javascript\">\nvar Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();\n(function(){\nvar s1=document.createElement(\"script\"),s0=document.getElementsByTagName(\"script\")[0];\ns1.async=true;\ns1.src='https://embed.tawk.to/5ff2332adf060f156a93ec9a/1er51fnq0';\ns1.charset='UTF-8';\ns1.setAttribute('crossorigin','*');\ns0.parentNode.insertBefore(s1,s0);\n})();\n</script>\n<!--End of Tawk.to Script-->",
+          "alias": "witsec-custom-html",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "witsec-custom-html-block",
+          "_anchor": "witsec-custom-html-block-3v"
         },
         {
           "_params": {
@@ -8597,133 +8620,6 @@
           "_once": "menu",
           "_params": {},
           "_anchor": "MobiGaryMenu26-3s"
-        },
-        {
-          "alias": "casper-blocks/components",
-          "_isSecondary": true,
-          "typeCompatible": "type",
-          "_styles": {
-            "& when not (@fullScreen)": {
-              "padding-top": "(@paddingTop * 1rem)",
-              "padding-bottom": "(@paddingBottom * 1rem)"
-            },
-            "& when (@bg-type = \"color\")": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = \"image\")": {
-              "background-image": "url(@bg-value)"
-            },
-            "@wide": "1",
-            "@narr": "0",
-            "@parity": "0",
-            "@i": "@wide",
-            "@j": "1 - @i",
-            "@k": "1 - @narr",
-            "@p": "@parity",
-            "@q": "1 - @p",
-            "@s": "1 - (2 * @p)",
-            ".infographics": {
-              "font": "400 (1em / 1.25) trebuchet ms, arial, sans-serif"
-            },
-            "article": {
-              "@parity": "0",
-              "@p": "@parity",
-              "@q": "1 - @p",
-              "@s": "1 - (2 * @p)",
-              "display": "grid",
-              "grid-gap": "0 (@i * 2rem)",
-              "grid-auto-flow": "column dense",
-              "margin": "((@i * 3.375rem) + (@j * 1em)) auto",
-              "border": "solid (@i * 0.1875rem) transparent",
-              "padding": "((@i * 0.75rem) + (@j * 2vw)) ((@i * 4rem) + (@j * 2vw))",
-              "width": "((@i * 42.25rem) + (@j * 100%))",
-              "border-radius": "(@i * 9.125rem)",
-              "box-shadow": "((@i * 1em) + (@j * 0.375em)) ((@i * 1em) + (@j * 0.375em)) (3 * ((@i * 1em) + (@j * 0.375em))) rgba(0, 0, 0, 0.5)",
-              "background": "linear-gradient(@s * 90deg, #e6e6e6, #ececec) padding-box, linear-gradient(to right bottom, #ffffff, #c8c8c8) border-box",
-              "counter-increment": "idx",
-              "box-sizing": "border-box"
-            },
-            "article:nth-child(odd)": {
-              "grid-template-columns": "280px 230px"
-            },
-            "article:nth-child(even)": {
-              "grid-template-columns": "230px 280px"
-            },
-            "article:nth-child(2n)": {
-              "@parity": "1"
-            },
-            "article > h3": {
-              "grid-row": "1 / span 3",
-              "margin": "-36px 0",
-              "border": "solid 0.1875rem transparent",
-              "padding": "36px 36px",
-              "box-shadow": "inherit",
-              "color": "#fff",
-              "font-weight": "400",
-              "line-height": "1",
-              "text-align": "center",
-              "box-sizing": "border-box",
-              "word-break": "keep-all"
-            },
-            "article:nth-child(odd) > h3": {
-              "grid-column": "2",
-              "border-radius": "50% 0%",
-              "background": "linear-gradient(45deg, @cardColor1, @cardColor2) padding-box, linear-gradient(-45deg, @cardColor1, @cardColor2) border-box"
-            },
-            "article:nth-child(even) > h3": {
-              "grid-column": "1",
-              "border-radius": "0% 50%",
-              "background": "linear-gradient(-45deg, @cardColor1, @cardColor2) padding-box, linear-gradient(45deg, @cardColor1, @cardColor2) border-box"
-            },
-            "article > h3::before": {
-              "font-size": "5rem",
-              "font-weight": "900",
-              "text-shadow": "-2px -1px #999999",
-              "content": "counter(idx, decimal-leading-zero) \" \""
-            },
-            "article > h4": {
-              "display": "flex",
-              "align-items": "center",
-              "justify-content": "left",
-              "border": "solid 0.1875rem @cardColor2",
-              "width": "75%",
-              "border-radius": "10px",
-              "color": "@cardColor2",
-              "text-transform": "capitalize",
-              "margin": "0px",
-              "padding": "3px",
-              "box-sizing": "border-box",
-              "font-size": "1rem"
-            },
-            "article > h4::before": {
-              "margin-right": "0.25em",
-              "margin-left": "0.25em",
-              "border": "solid 2px currentcolor",
-              "width": "1em",
-              "height": "1em",
-              "font-size": "1.75em",
-              "line-height": "0.8125",
-              "border-radius": "50%",
-              "text-align": "center",
-              "content": "\"+\"",
-              "box-sizing": "border-box"
-            },
-            "article > p": {
-              "padding": "0.75rem 0",
-              "text-indent": "2em",
-              "font-size": "1rem",
-              "margin": "0",
-              "box-sizing": "border-box"
-            }
-          },
-          "_name": "casperContent7",
-          "_customHTML": "<section class=\"casperContent7\" group=\"Casper Blocks\" data-bg-video=\"{{bg.type == 'video'&amp;&amp;bg.value.url}}\" mbr-class=\"{\n  'mbr-fullscreen': fullScreen,\n  'mbr-parallax-background': bg.parallax}\">\n\n  <mbr-parameters>\n    <header>Size</header>\n    <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked=\"\">\n    <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n    <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n    <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" step=\"1\" value=\"12\">\n    <header>Show/Hide</header>\n    <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked=\"\">\n    <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked=\"\">\n    <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked=\"\">\n    <header>Cards</header>\n    <input type=\"range\" inline=\"\" title=\"Count\" name=\"listItems\" min=\"1\" max=\"10\" step=\"1\" value=\"10\">\n    <input type=\"color\" title=\"Gradient Color 1\" name=\"cardColor1\" value=\"#ffb5b5\">\n    <input type=\"color\" title=\"Gradient Color 2\" name=\"cardColor2\" value=\"#e43f3f\">\n    <header>Background</header>\n    <fieldset type=\"background\" name=\"bg\" parallax=\"\">\n      <!-- need edit value path -->\n      <input type=\"image\" title=\"Image\" value=\"https://s3-us-west-2.amazonaws.com/s.cdpn.io/2017/kreator_rockharz_july_2018.jpg\" selected=\"\" parallax=\"\">\n      <!-- need edit  value path -->\n      <input type=\"color\" title=\"Color\" value=\"#ffffff\">\n      <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n    </fieldset>\n    <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked=\"\">\n    <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n    <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n  </mbr-parameters>\n\n  <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\"></div>\n\n  <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n    <div class=\"row justify-content-center\">\n      <div class=\"title col-md-12 col-lg-{{textWidth}}\">\n        <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n          <b>Responsive infographic / CSS variables, grid layout</b>\n        </h3>\n        <h4 class=\"mbr-section-subtitle align-center mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n          You can only change the number of cards, gradient colors on cards and text on cards\n        </h4>\n        <div class=\"infographics\" mbr-list=\"\" mbr-list-grow=\"listItems\">\n          <!-- <section> -->\n          <!-- partial:index.partial.html -->\n          <article>\n            <h3>gingerbread</h3>\n            <h4>step one</h4>\n            <p>Cake muffin donuts chocolate cake jelly sesame snaps wafer tart pie sweet roll muffin chupa chups.</p>\n          </article>\n\n\n\n\n          <!-- </section> -->\n          <!-- partial -->\n          <article>\n            <h3>gingerbread</h3>\n            <h4>step one</h4>\n            <p>Cake muffin donut chocolate cake jelly sesame snaps wafer tart pie sweet roll muffin chupa chups.</p>\n          </article>\n          <article>\n            <h3>gingerbread</h3>\n            <h4>step one</h4>\n            <p>Cake muffin donut chocolate cake jelly sesame snaps wafer tart pie sweet roll muffin chupa chups.</p>\n          </article>\n          <article>\n            <h3>gingerbread</h3>\n            <h4>step one</h4>\n            <p>Cake muffin donut chocolate cake jelly sesame snaps wafer tart pie sweet roll muffin chupa chups.</p>\n          </article>\n          <article>\n            <h3>gingerbread</h3>\n            <h4>step one</h4>\n            <p>Cake muffin donut chocolate cake jelly sesame snaps wafer tart pie sweet roll muffin chupa chups.</p>\n          </article>\n          <article>\n            <h3>gingerbread</h3>\n            <h4>step one</h4>\n            <p>Cake muffin donut chocolate cake jelly sesame snaps wafer tart pie sweet roll muffin chupa chups.</p>\n          </article>\n          <article>\n            <h3>gingerbread</h3>\n            <h4>step one</h4>\n            <p>Cake muffin donut chocolate cake jelly sesame snaps wafer tart pie sweet roll muffin chupa chups.</p>\n          </article>\n          <article>\n            <h3>gingerbread</h3>\n            <h4>step one</h4>\n            <p>Cake muffin donut chocolate cake jelly sesame snaps wafer tart pie sweet roll muffin chupa chups.</p>\n          </article>\n          <article>\n            <h3>gingerbread</h3>\n            <h4>step one</h4>\n            <p>Cake muffin donut chocolate cake jelly sesame snaps wafer tart pie sweet roll muffin chupa chups.</p>\n          </article>\n          <article>\n            <h3>gingerbread</h3>\n            <h4>step one</h4>\n            <p>Cake muffin donut chocolate cake jelly sesame snaps wafer tart pie sweet roll muffin chupa chups.</p>\n          </article>\n        </div>\n        <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons=\"\" mbr-theme-style=\"display-4\"><a class=\"btn btn-secondary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">LEARN MORE</a>\n          <a class=\"btn btn-secondary-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">LIVE DEMO</a></div>\n      </div>\n    </div>\n  </div></section>",
-          "_cid": "syw50RLtOi",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {},
-          "_anchor": "casperContent7-3u"
         }
       ]
     }
