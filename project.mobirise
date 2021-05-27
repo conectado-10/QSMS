@@ -2347,8 +2347,8 @@
         },
         {
           "_params": {
-            "HTMLCode": "<!-- form.123formbuilder.com script begins here --><script type=\"text/javascript\" defer src=\"https://form.123formbuilder.com/embed/5918365.js\" data-role=\"form\" data-default-width=\"650px\"></script><!-- form.123formbuilder.com script ends here -->",
-            "hideOnPublish": false,
+            "HTMLCode": "<a href=\"https://form.123formbuilder.com/5918365/form\" class=\"blueLink13\">Contact us</a>",
+            "hideOnPublish": true,
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
@@ -2360,7 +2360,7 @@
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
-          "HTMLCode": "<!-- form.123formbuilder.com script begins here --><script type=\"text/javascript\" defer src=\"https://form.123formbuilder.com/embed/5918365.js\" data-role=\"form\" data-default-width=\"650px\"></script><!-- form.123formbuilder.com script ends here -->",
+          "HTMLCode": "<a href=\"https://form.123formbuilder.com/5918365/form\" class=\"blueLink13\">Contact us</a>",
           "alias": "witsec-custom-html",
           "_tags": [
             "Extension"
