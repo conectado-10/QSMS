@@ -2670,6 +2670,92 @@ section.lazy-placeholder:after {
     margin-left: 0 !important;
   }
 }
+.cid-syTE1VHCE1 {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #ffffff;
+}
+.cid-syTE1VHCE1 .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-syTE1VHCE1 .container-table {
+  margin: 0 auto;
+}
+.cid-syTE1VHCE1 .scroll {
+  overflow-x: auto;
+  padding: 0;
+}
+.cid-syTE1VHCE1 .dataTables_wrapper {
+  display: block;
+}
+.cid-syTE1VHCE1 .dataTables_wrapper .search {
+  margin-bottom: .5rem;
+}
+.cid-syTE1VHCE1 .dataTables_wrapper .table {
+  overflow-x: auto;
+}
+.cid-syTE1VHCE1 table {
+  width: 100% !important;
+  margin-top: 6px;
+  border: 1px solid #00c48c;
+  margin-bottom: 0;
+}
+.cid-syTE1VHCE1 table th {
+  border-top: none;
+  transition: all .2s;
+  border-bottom: none;
+}
+.cid-syTE1VHCE1 table th:hover {
+  background: #00c48c;
+  color: #ffffff;
+}
+.cid-syTE1VHCE1 table td {
+  border-top: 1px solid #00c48c;
+}
+.cid-syTE1VHCE1 table.table {
+  background: #133996;
+}
+.cid-syTE1VHCE1 .dataTables_filter {
+  text-align: right;
+  margin-bottom: .5rem;
+}
+.cid-syTE1VHCE1 .dataTables_filter label {
+  display: inline;
+  white-space: normal !important;
+}
+.cid-syTE1VHCE1 .dataTables_filter input {
+  display: inline;
+  width: auto;
+  margin-left: .5rem;
+  border-radius: 100px;
+  padding-left: 1rem;
+}
+.cid-syTE1VHCE1 .dataTables_info {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  white-space: normal !important;
+}
+@media (max-width: 992px) {
+  .cid-syTE1VHCE1 .dataTables_filter {
+    text-align: center;
+  }
+}
+@media (max-width: 350px) {
+  .cid-syTE1VHCE1 .dataTables_filter {
+    text-align: center;
+  }
+  .cid-syTE1VHCE1 .dataTables_filter input {
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+}
+.cid-syTE1VHCE1 .head-item {
+  color: #ffffff;
+}
+.cid-syTE1VHCE1 .body-item {
+  color: #ffffff;
+  text-align: left;
+}
 .cid-yY4cnTWKhu .icon-bar {
   z-index: 100002;
   left: 0.2%;
@@ -9070,7 +9156,7 @@ background-color: @bgColor;
   vertical-align: middle;
 }
 .cid-syTp4EjTOr {
-  padding-top: 120px;
+  padding-top: 105px;
   padding-bottom: 120px;
   background-color: #ffffff;
 }
