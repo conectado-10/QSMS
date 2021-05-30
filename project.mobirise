@@ -51,7 +51,7 @@
     "siteUrl": "HTTP://QSMS.COM",
     "cookiesAlert": false,
     "gdpr": false,
-    "uniqCompNum": 153,
+    "uniqCompNum": 154,
     "versionPublish": "4.12.4",
     "screenshot": "screenshot.png",
     "witsec-mailform": false
@@ -10773,27 +10773,25 @@
           "_params": {}
         },
         {
-          "_params": {
-            "HTMLCode": "<div class=\"jotform-table-embed\" style=\"width: 100%; height: 600px;\" data-id=\"211484780059662\" data-type=\"interactive\"></div><script>(function(doc, id){var scripts=doc.getElementsByTagName(\"script\")[0]; if (!doc.getElementById(id)){var script=doc.createElement(\"script\"); script.async=1; script.id=id; script.src=\"https://cdn.jotfor.ms/common/tableEmbed.js\"; scripts.parentNode.insertBefore(script, scripts);}})(document, \"jotform-async\");</script>",
-            "hideOnPublish": true,
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
+          "alias": "deltapi-code-editor",
+          "_isSecondary": true,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section": {
+              "text-align": "center",
+              "color": "#fff"
+            }
           },
-          "HTMLCode": "<div class=\"jotform-table-embed\" style=\"width: 100%; height: 600px;\" data-id=\"211484780059662\" data-type=\"interactive\"></div><script>(function(doc, id){var scripts=doc.getElementsByTagName(\"script\")[0]; if (!doc.getElementById(id)){var script=doc.createElement(\"script\"); script.async=1; script.id=id; script.src=\"https://cdn.jotfor.ms/common/tableEmbed.js\"; scripts.parentNode.insertBefore(script, scripts);}})(document, \"jotform-async\");</script>",
-          "alias": "witsec-custom-html",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "witsec-custom-html-block",
-          "_anchor": "witsec-custom-html-block-48"
+          "_name": "custom-html",
+          "_customHTML": "<section mbr-id=\"_anchor\" class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n   <div class=\"jotform-table-embed\" style=\"width: 100%; height: 600px;\" data-id=\"211484780059662\" data-type=\"interactive\"></div><script>(function(doc, id){var scripts=doc.getElementsByTagName(\"script\")[0]; if (!doc.getElementById(id)){var script=doc.createElement(\"script\"); script.async=1; script.id=id; script.src=\"https://cdn.jotfor.ms/common/tableEmbed.js\"; scripts.parentNode.insertBefore(script, scripts);}})(document, \"jotform-async\");</script>",
+          "_cid": "syTp4EjTOr",
+          "_anchor": "custom-html-49",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
         }
       ]
     }
