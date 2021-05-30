@@ -94,7 +94,7 @@ body {
   background-color: #133996 !important;
 }
 .bg-info {
-  background-color: #fdece8 !important;
+  background-color: #ffffff !important;
 }
 .bg-warning {
   background-color: #ffcf5c !important;
@@ -144,23 +144,23 @@ body {
 }
 .btn-info,
 .btn-info:active {
-  background-color: #fdece8 !important;
-  border-color: #fdece8 !important;
-  color: #d43712 !important;
+  background-color: #ffffff !important;
+  border-color: #ffffff !important;
+  color: #808080 !important;
 }
 .btn-info:hover,
 .btn-info:focus,
 .btn-info.focus,
 .btn-info.active {
-  color: #d43712 !important;
-  background-color: #f7b2a2 !important;
-  border-color: #f7b2a2 !important;
+  color: #808080 !important;
+  background-color: #d9d9d9 !important;
+  border-color: #d9d9d9 !important;
 }
 .btn-info.disabled,
 .btn-info:disabled {
-  color: #d43712 !important;
-  background-color: #f7b2a2 !important;
-  border-color: #f7b2a2 !important;
+  color: #808080 !important;
+  background-color: #d9d9d9 !important;
+  border-color: #d9d9d9 !important;
 }
 .btn-success,
 .btn-success:active {
@@ -308,22 +308,22 @@ body {
 .btn-info-outline,
 .btn-info-outline:active {
   background: none;
-  border-color: #fdece8;
-  color: #fdece8;
+  border-color: #ffffff;
+  color: #ffffff;
 }
 .btn-info-outline:hover,
 .btn-info-outline:focus,
 .btn-info-outline.focus,
 .btn-info-outline.active {
-  color: #d43712;
-  background-color: #fdece8;
-  border-color: #fdece8;
+  color: #808080;
+  background-color: #ffffff;
+  border-color: #ffffff;
 }
 .btn-info-outline.disabled,
 .btn-info-outline:disabled {
-  color: #d43712 !important;
-  background-color: #fdece8 !important;
-  border-color: #fdece8 !important;
+  color: #808080 !important;
+  background-color: #ffffff !important;
+  border-color: #ffffff !important;
 }
 .btn-success-outline,
 .btn-success-outline:active {
@@ -429,7 +429,7 @@ body {
   color: #133996 !important;
 }
 .text-info {
-  color: #fdece8 !important;
+  color: #ffffff !important;
 }
 .text-warning {
   color: #ffcf5c !important;
@@ -457,7 +457,7 @@ a.text-success:focus {
 }
 a.text-info:hover,
 a.text-info:focus {
-  color: #f59e8a !important;
+  color: #cccccc !important;
 }
 a.text-warning:hover,
 a.text-warning:focus {
@@ -479,7 +479,7 @@ a.text-black:focus {
   background-color: #70c770;
 }
 .alert-info {
-  background-color: #fdece8;
+  background-color: #ffffff;
 }
 .alert-warning {
   background-color: #ffcf5c;
@@ -538,8 +538,8 @@ a:hover {
   color: #dee1e8;
 }
 /* Scroll to top button*/
-.scrollToTop_wraper {
-  display: none;
+#scrollToTop a {
+  border-radius: 100px;
 }
 .form-control {
   font-family: 'DM Sans', sans-serif;
@@ -1373,7 +1373,7 @@ section.lazy-placeholder:after {
   color: #133996 !important;
 }
 .cid-sy9smNQsae .ico2 {
-  color: #fdece8 !important;
+  color: #ffffff !important;
   -webkit-transition: all 0.6s;
   transition: all 0.6s;
 }
@@ -2828,7 +2828,7 @@ section.lazy-placeholder:after {
 @primaryColor: #133996;
 @secondaryColor: #fc643f;
 @successColor: #133996;
-@infoColor: #fdece8;
+@infoColor: #ffffff;
 @warningColor: #ffcf5c;
 @dangerColor: #939bb4;
 @mainFont: DM Sans;
@@ -2843,8 +2843,8 @@ section.lazy-placeholder:after {
 @display4Font: 'DM Sans', sans-serif;
 @display4Size: 0.875;
 @isRoundedButtons: true;
-@isAnimatedOnScroll: false;
-@isScrollToTopButton: false;
+@isAnimatedOnScroll: true;
+@isScrollToTopButton: true;
 @isPublish: true;
 
 .cid-sy9f3kZ5w1 {
@@ -4815,8 +4815,8 @@ h3, h4 {
   color: #767676;
 }
 .cid-synpJTbLMy .mbr-figure img {
-  -webkit-box-shadow: 0px 0px 30px rgba(244, 242, 241, 0.3);
-  box-shadow: 0px 0px 30px rgba(244, 242, 241, 0.3);
+  -webkit-box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.3);
+  box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.3);
   border-radius: .25rem;
 }
 .cid-synpJTbLMy .counter-container {
@@ -6708,7 +6708,7 @@ h3, h4 {
 @primaryColor: #133996;
 @secondaryColor: #fc643f;
 @successColor: #133996;
-@infoColor: #fdece8;
+@infoColor: #ffffff;
 @warningColor: #ffcf5c;
 @dangerColor: #939bb4;
 @mainFont: DM Sans;
@@ -6723,8 +6723,8 @@ h3, h4 {
 @display4Font: 'DM Sans', sans-serif;
 @display4Size: 0.875;
 @isRoundedButtons: true;
-@isAnimatedOnScroll: false;
-@isScrollToTopButton: false;
+@isAnimatedOnScroll: true;
+@isScrollToTopButton: true;
 @isPublish: true;
 
 .cid-sy9f3kZ5w1 {
@@ -6758,7 +6758,7 @@ h3, h4 {
 @iconsAmount: "1";
 @showButtons: false;
 @MMButtonWidthAreaPX: 150;
-@sticky: false;
+@sticky: true;
 @collapsed: false;
 @showLogo: true;
 @logoSize: 4.1;
