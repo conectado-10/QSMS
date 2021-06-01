@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "page1.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "creativem4",
       "title": "CreativeM4",
@@ -1617,11 +1617,11 @@
             "modalLinkUrl": "https://mobirise.com/",
             "modalLinkText": "Visit Mobirise",
             "modalLinkNewWindow": true,
-            "modalVerticalCenter": false,
-            "modalFade": true,
-            "modalAutoOpen": true,
-            "modalAutoOpenOnce": true,
-            "modalAutoOpenGDPR": true,
+            "modalVerticalCenter": true,
+            "modalFade": false,
+            "modalAutoOpen": false,
+            "modalAutoOpenOnce": false,
+            "modalAutoOpenGDPR": false,
             "modalAutoOpenDelay": "1"
           },
           "modalTest": "<div class=\"mbr-section-btn\">\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#PROTAGRONISTA-\">Preview PROTAGRONISTA-</a>\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#PROTAGRONISTA--howtouse\">How to use PROTAGRONISTA-</a>\n</div>\n<div class=\"modal fade\" id=\"PROTAGRONISTA--howtouse\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"PROTAGRONISTA--howtouseLabel\" aria-hidden=\"true\">\n  <div class=\"modal-dialog\" role=\"document\" style=\"height:auto\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h5 class=\"modal-title\" id=\"PROTAGRONISTA--howtouseLabel\">How to use?</h5>\n        <a href=\"\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a>\n      </div>\n      <div class=\"modal-body\">\n        Using your new modal is very easy. Simply create a new link, then click the \"...\" tab and enter the following as custom URL:<br /><br />\n        <code>javascript:OpenModal('PROTAGRONISTA-')</code>\n      </div>\n      <div class=\"modal-footer\">\n        <div class=\"mbr-section-btn\"><a href=\"#\" class=\"btn btn-secondary display-4\" data-dismiss=\"modal\">Close</a></div>\n      </div>\n    </div>\n  </div>\n</div>",
@@ -1632,7 +1632,7 @@
           ],
           "_name": "witsec-modal-window-block",
           "_anchor": "witsec-modal-window-block-3r",
-          "modalWindow": "<div class=\"modal fade\" id=\"PROTAGRONISTA-\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"PROTAGRONISTA-Label\" aria-hidden=\"true\">  <div class=\"modal-dialog modal-lg \" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title\" id=\"PROTAGRONISTA-Label\">PROTAGRONISTA - SMS</h5>  <a href=\"#\" class=\"no-anim close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body\" id=\"PROTAGRONISTA-_body\">Seja bem vindo, nosso conteudo ainda esta em fase de teste, mas isso não significa que pode dar uma olhada....fique a vontade<br />William Bachot</div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-dismiss=\"modal\">Fechar</a></div></div>    </div>  </div></div><script>document.addEventListener(\"DOMContentLoaded\", function() {  $(\"#PROTAGRONISTA-\").on(\"hidden.bs.modal\", function () {    var html = $( \"#PROTAGRONISTA-_body\" ).html();    $( \"#PROTAGRONISTA-_body\" ).empty();    $( \"#PROTAGRONISTA-_body\" ).append(html);  })});</script>"
+          "modalWindow": "<div class=\"modal \" id=\"PROTAGRONISTA-\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"PROTAGRONISTA-Label\" aria-hidden=\"true\">  <div class=\"modal-dialog modal-lg modal-dialog-centered\" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title\" id=\"PROTAGRONISTA-Label\">PROTAGRONISTA - SMS</h5>  <a href=\"#\" class=\"no-anim close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body\" id=\"PROTAGRONISTA-_body\">Seja bem vindo, nosso conteudo ainda esta em fase de teste, mas isso não significa que pode dar uma olhada....fique a vontade<br />William Bachot</div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-dismiss=\"modal\">Fechar</a></div></div>    </div>  </div></div><script>document.addEventListener(\"DOMContentLoaded\", function() {  $(\"#PROTAGRONISTA-\").on(\"hidden.bs.modal\", function () {    var html = $( \"#PROTAGRONISTA-_body\" ).html();    $( \"#PROTAGRONISTA-_body\" ).empty();    $( \"#PROTAGRONISTA-_body\" ).append(html);  })});</script>"
         }
       ]
     },
