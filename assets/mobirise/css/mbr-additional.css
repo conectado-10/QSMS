@@ -10207,7 +10207,7 @@ img {
 @showSubTitle: false;
 @showText: true;
 @showButtons: false;
-@waveColor: #ffffff;
+@waveColor: #133996;
 @uname__10: "https://i.imgur.com/FLszoiX.jpg";
 @uname__11: true;
 @uname__12: #00c48c;
@@ -10505,5 +10505,24 @@ body {
   z-index: 10;
   background: inherit;
   box-shadow: -50px 50px 0 @bgtop, 50px -50px 0 @bgtop;
+}
+}
+
+.cid-L5LQW78QEq {
+@preview: true;
+@padding: 7;
+@bgcolor: #242930;
+
+background-color: @bgcolor;
+.show {
+  visibility: visible;
+}
+& when not (@preview) {
+  iframe {
+    visibility: hidden;
+  }
+}
+.hide {
+  visibility: hidden;
 }
 }
