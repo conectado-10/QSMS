@@ -6653,107 +6653,9 @@ background-color: @bgColor;
 .cid-szs5xp6hEs .head-item {
   text-align: center;
 }
-.cid-vOV9gytrFY {
-  padding-top: 30px;
-  padding-bottom: 15px;
-  background-color: #ffffff;
-}
-.cid-vOV9gytrFY .mbr-text {
-  color: #767676;
-}
-.cid-vOV9gytrFY h4 {
-  text-align: center;
-}
-.cid-vOV9gytrFY p {
-  text-align: center;
-}
-.cid-vOV9gytrFY .badge {
-  position: relative;
-  width: 200px;
-  display: inline-block;
-  margin: 0 20px 20px 20px;
-}
-.cid-vOV9gytrFY .badge svg {
-  width: 200px;
-}
-.cid-vOV9gytrFY .title {
-  position: absolute;
-  top: -28px;
-  border-radius: 8px 8px 0 0;
-  text-align: center;
-  width: 100%;
-  padding: 20px 0;
-  color: #232323;
-}
-.cid-vOV9gytrFY .subtitle {
-  position: absolute;
-  width: 100%;
-  text-align: center;
-  color: #ffffff;
-  top: 100px;
-}
-.cid-vOV9gytrFY .stars {
-  position: absolute;
-  width: 100%;
-  text-align: center;
-  color: #ffffff;
-  top: 140px;
-}
-.cid-vOV9gytrFY .cBadge1 .title {
-  background: #dc514e;
-}
-.cid-vOV9gytrFY .cBadge1 .subtitle:after {
-  color: #dc514e;
-}
-.cid-vOV9gytrFY .cBadge2 .title {
-  background: #2ecc71;
-}
-.cid-vOV9gytrFY .cBadge2 .subtitle:after {
-  color: #2ecc71;
-}
-.cid-vOV9gytrFY .cBadge3 .title {
-  background: #95a5a6;
-}
-.cid-vOV9gytrFY .cBadge3 .subtitle:after {
-  color: #95a5a6;
-}
-.cid-vOV9gytrFY .cBadge4 .title {
-  background: #f1c40f;
-}
-.cid-vOV9gytrFY .cBadge4 .subtitle:after {
-  color: #f1c40f;
-}
-.cid-GOFahQ6XKQ {
-  padding-top: 0px;
-  padding-bottom: 0px;
-  background-color: #efefef;
-}
-.cid-GOFahQ6XKQ .text-color {
-  color: #ffffff;
-}
-.cid-GOFahQ6XKQ .venue {
-  background-color: #673ab7;
-}
-.cid-GOFahQ6XKQ .venue {
-  flex-direction: row-reverse;
-  -webkit-flex-direction: row-reverse;
-}
-@media (min-width: 992px) {
-  .cid-GOFahQ6XKQ .mbr-figure {
-    padding-left: 4rem;
-  }
-}
-.cid-GOFahQ6XKQ H3 {
-  color: #ffffff;
-  text-align: left;
-}
-.cid-GOFahQ6XKQ P {
-  color: #ffffff;
-  text-align: left;
-}
 .cid-szN4BKxLA6 {
-  padding-top: 60px;
-  padding-bottom: 75px;
+  padding-top: 0px;
+  padding-bottom: 30px;
   background-color: #ffffff;
 }
 .cid-szN4BKxLA6 h4 {
@@ -6868,6 +6770,104 @@ background-color: @bgColor;
 .cid-szN4BKxLA6 .header-text,
 .cid-szN4BKxLA6 .sign {
   color: #333333;
+}
+.cid-vOV9gytrFY {
+  padding-top: 30px;
+  padding-bottom: 15px;
+  background-color: #ffffff;
+}
+.cid-vOV9gytrFY .mbr-text {
+  color: #767676;
+}
+.cid-vOV9gytrFY h4 {
+  text-align: center;
+}
+.cid-vOV9gytrFY p {
+  text-align: center;
+}
+.cid-vOV9gytrFY .badge {
+  position: relative;
+  width: 200px;
+  display: inline-block;
+  margin: 0 20px 20px 20px;
+}
+.cid-vOV9gytrFY .badge svg {
+  width: 200px;
+}
+.cid-vOV9gytrFY .title {
+  position: absolute;
+  top: -28px;
+  border-radius: 8px 8px 0 0;
+  text-align: center;
+  width: 100%;
+  padding: 20px 0;
+  color: #232323;
+}
+.cid-vOV9gytrFY .subtitle {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  top: 100px;
+}
+.cid-vOV9gytrFY .stars {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  top: 140px;
+}
+.cid-vOV9gytrFY .cBadge1 .title {
+  background: #dc514e;
+}
+.cid-vOV9gytrFY .cBadge1 .subtitle:after {
+  color: #dc514e;
+}
+.cid-vOV9gytrFY .cBadge2 .title {
+  background: #2ecc71;
+}
+.cid-vOV9gytrFY .cBadge2 .subtitle:after {
+  color: #2ecc71;
+}
+.cid-vOV9gytrFY .cBadge3 .title {
+  background: #95a5a6;
+}
+.cid-vOV9gytrFY .cBadge3 .subtitle:after {
+  color: #95a5a6;
+}
+.cid-vOV9gytrFY .cBadge4 .title {
+  background: #f1c40f;
+}
+.cid-vOV9gytrFY .cBadge4 .subtitle:after {
+  color: #f1c40f;
+}
+.cid-GOFahQ6XKQ {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #efefef;
+}
+.cid-GOFahQ6XKQ .text-color {
+  color: #ffffff;
+}
+.cid-GOFahQ6XKQ .venue {
+  background-color: #673ab7;
+}
+.cid-GOFahQ6XKQ .venue {
+  flex-direction: row-reverse;
+  -webkit-flex-direction: row-reverse;
+}
+@media (min-width: 992px) {
+  .cid-GOFahQ6XKQ .mbr-figure {
+    padding-left: 4rem;
+  }
+}
+.cid-GOFahQ6XKQ H3 {
+  color: #ffffff;
+  text-align: left;
+}
+.cid-GOFahQ6XKQ P {
+  color: #ffffff;
+  text-align: left;
 }
 .cid-szyEctqHfB {
   padding-top: 45px;
