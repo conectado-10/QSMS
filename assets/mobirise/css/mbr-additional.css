@@ -857,6 +857,7 @@ section.lazy-placeholder:after {
   flex-direction: column;
   transition: all .3s;
   background: rgba(255, 255, 255, 0.85);
+  background: none;
 }
 @media (min-width: 992px) {
   .cid-sy9f3kZ5w1 .navbar.navbar-short {
@@ -1889,6 +1890,7 @@ section.lazy-placeholder:after {
   flex-direction: column;
   transition: all .3s;
   background: rgba(255, 255, 255, 0.85);
+  background: none;
 }
 @media (min-width: 992px) {
   .cid-sy9f3kZ5w1 .navbar.navbar-short {
@@ -2728,6 +2730,7 @@ section.lazy-placeholder:after {
   flex-direction: column;
   transition: all .3s;
   background: rgba(255, 255, 255, 0.85);
+  background: none;
 }
 @media (min-width: 992px) {
   .cid-sy9f3kZ5w1 .navbar.navbar-short {
@@ -3532,7 +3535,7 @@ section.lazy-placeholder:after {
 @menuAlign: "left";
 @MainMenuItemSpacing: 1;
 @menuBgColor: #ffffff;
-@transparent: false;
+@transparent: true;
 @bgOpacity: 0.85;
 @itemsHoverColor: #232323;
 @MainMenuHoverUnderline: false;
@@ -4722,6 +4725,7 @@ background-color: @bgColor;
   flex-direction: column;
   transition: all .3s;
   background: rgba(255, 255, 255, 0.85);
+  background: none;
 }
 @media (min-width: 992px) {
   .cid-sy9f3kZ5w1 .navbar.navbar-short {
@@ -5391,6 +5395,7 @@ background-color: @bgColor;
   flex-direction: column;
   transition: all .3s;
   background: rgba(255, 255, 255, 0.85);
+  background: none;
 }
 @media (min-width: 992px) {
   .cid-sy9f3kZ5w1 .navbar.navbar-short {
@@ -6086,6 +6091,7 @@ background-color: @bgColor;
   flex-direction: column;
   transition: all .3s;
   background: rgba(255, 255, 255, 0.85);
+  background: none;
 }
 @media (min-width: 992px) {
   .cid-sy9f3kZ5w1 .navbar.navbar-short {
@@ -7326,6 +7332,7 @@ background-color: @bgColor;
   flex-direction: column;
   transition: all .3s;
   background: rgba(255, 255, 255, 0.85);
+  background: none;
 }
 @media (min-width: 992px) {
   .cid-szyFZ34BRn .navbar.navbar-short {
@@ -8566,6 +8573,7 @@ background-color: @bgColor;
   flex-direction: column;
   transition: all .3s;
   background: rgba(255, 255, 255, 0.85);
+  background: none;
 }
 @media (min-width: 992px) {
   .cid-szyI19nU2z .navbar.navbar-short {
@@ -9806,6 +9814,7 @@ background-color: @bgColor;
   flex-direction: column;
   transition: all .3s;
   background: rgba(255, 255, 255, 0.85);
+  background: none;
 }
 @media (min-width: 992px) {
   .cid-szyJ49DZNw .navbar.navbar-short {
@@ -10928,6 +10937,7 @@ background-color: @bgColor;
   flex-direction: column;
   transition: all .3s;
   background: rgba(255, 255, 255, 0.85);
+  background: none;
 }
 @media (min-width: 992px) {
   .cid-sy9f3kZ5w1 .navbar.navbar-short {
