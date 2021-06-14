@@ -3609,7 +3609,7 @@ section.lazy-placeholder:after {
 @isPublish: true;
 
 .cid-sy9f3kZ5w1 {
-@showTopLine: true;
+@showTopLine: false;
 @showTopLineHamMenu: false;
 @showTopLineOnScroll: false;
 @TopLineEffect: "TopLineEffectFlash";
