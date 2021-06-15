@@ -1435,6 +1435,9 @@ section.lazy-placeholder:after {
   padding: 0;
   margin: 0;
 }
+.cid-sy9smNQsae .card-title {
+  color: #e92910;
+}
 .cid-38XhuDIPNV {
   padding-top: 90px;
   padding-bottom: 90px;
@@ -3609,7 +3612,7 @@ section.lazy-placeholder:after {
 @isPublish: true;
 
 .cid-sy9f3kZ5w1 {
-@showTopLine: false;
+@showTopLine: true;
 @showTopLineHamMenu: false;
 @showTopLineOnScroll: false;
 @TopLineEffect: "TopLineEffectFlash";
