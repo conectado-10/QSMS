@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "page9.html",
     "theme": {
       "name": "creativem4",
       "title": "CreativeM4",
@@ -8578,12 +8578,12 @@
         {
           "_params": {
             "HTMLCode": "<script type=\"text/javascript\" async\n  src=\"//l.getsitecontrol.com/y791lm48.js\">\n</script>",
-            "hideOnPublish": true,
+            "hideOnPublish": false,
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/cool-male-avatars-3.png",
-            "parallax": true,
+            "parallax": false,
             "bgColorRadio": false,
             "bgColor": "#fff",
             "overlay": false,
