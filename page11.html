@@ -427,7 +427,17 @@
 	}
 	</script>
 
-</section>
+</section><script>
+document.addEventListener("DOMContentLoaded", function() {
+  if (modalGetCookie("Parabens--Thiag_viewed") == "") {
+    setTimeout( function() {
+      if (document.cookie)
+        modalSetCookie("Parabens--Thiag_viewed", true, 3600);
+      OpenModal("Parabens--Thiag");
+    } , 0);
+  }
+});
+</script>
 
 <section class="mbr-section mbr-section--no-padding" id="witsec-custom-html-block-5s" custom-code="true" data-rv-view="4973">
  

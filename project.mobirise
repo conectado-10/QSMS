@@ -12074,7 +12074,7 @@
             "modalLinkNewWindow": true,
             "modalVerticalCenter": false,
             "modalFade": true,
-            "modalAutoOpen": false,
+            "modalAutoOpen": true,
             "modalAutoOpenOnce": true,
             "modalAutoOpenGDPR": true,
             "modalAutoOpenDelay": 0
