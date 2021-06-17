@@ -429,13 +429,7 @@
 
 </section><script>
 document.addEventListener("DOMContentLoaded", function() {
-  if (modalGetCookie("Parabens--Thiag_viewed") == "") {
-    setTimeout( function() {
-      if (document.cookie)
-        modalSetCookie("Parabens--Thiag_viewed", true, 3600);
-      OpenModal("Parabens--Thiag");
-    } , 2000);
-  }
+  setTimeout( function() { OpenModal("Parabens--Thiag"); } , 2000);
 });
 </script>
 
