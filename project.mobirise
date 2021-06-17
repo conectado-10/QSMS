@@ -53,7 +53,7 @@
     "siteUrl": "HTTP://QSMS.COM",
     "cookiesAlert": false,
     "gdpr": false,
-    "uniqCompNum": 205,
+    "uniqCompNum": 206,
     "versionPublish": "4.12.4",
     "screenshot": "screenshot.png",
     "witsec-mailform": false
@@ -15921,65 +15921,116 @@
           "_params": {}
         },
         {
-          "alias": false,
+          "alias": "casper-blocks/components",
+          "_isSecondary": true,
+          "typeCompatible": "type",
           "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
+            "overflow-x": "hidden !important",
+            "& when not (@fullScreen)": {
+              "&, .scroll-wrapper": {
+                "padding-top": "(@paddingTop * 15px)",
+                "padding-bottom": "(@paddingBottom * 15px)"
+              }
             },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
+            ".row": {
+              "backdrop-filter": "blur(10px)",
+              "border": "1px solid white"
             },
-            "& when (@bg-type = 'video')": {},
-            ".mbr-section": {
-              "text-align": "center",
-              "color": "#fff"
+            ".mbr-section-title": {
+              "color": "#ffffff",
+              "span": {
+                "color": "@primaryColor"
+              }
             },
-            ".banner-heading .cont": {
-              "color": "#fff ",
-              "font-size": "47px",
-              "font-weight": "500",
-              "text-decoration": "none",
-              "display": "block"
+            ".mbr-text": {
+              "color": "#efefef",
+              "letter-spacing": "5px",
+              "font-weight": "100"
             },
-            ".banner-heading P": {
-              "color": "#fff",
-              "padding-bottom": "20px",
-              "font-size": "19px",
-              "font-weight": "400"
+            ".scroll-wrapper": {
+              "top": "0",
+              "width": "100%",
+              "height": "100%",
+              "background-position": "50% 50%",
+              "background-size": "cover",
+              "position": "absolute",
+              "background-repeat": "repeat",
+              "z-index": "0",
+              "-webkit-animation-duration": "~\"@{scrollTime}s\" !important",
+              "animation-duration": "~\"@{scrollTime}s\"",
+              "& when (@bg-type = 'color')": {
+                "background-color": "@bg-value"
+              },
+              "& when (@bg-type = 'image')": {
+                "background-image": "url(@bg-value)",
+                "& when (@scrollBg)": {
+                  "-webkit-animation": "scroll-wrapper linear infinite",
+                  "-moz-animation": "scroll-wrapper linear infinite",
+                  "-o-animation": "scroll-wrapper linear infinite",
+                  "animation": "scroll-wrapper linear infinite",
+                  "-webkit-transform": "translateZ(0)",
+                  "transform": "translateZ(0)"
+                }
+              },
+              "&.second": {
+                "left": "~\"calc(100% - 1px)\""
+              }
             },
-            ".banner-heading span p": {
-              "color": "#cd0e00"
+            ".mbr-overlay": {
+              "z-index": "1"
             },
-            ".btn": {
-              "display": "inline-block",
-              "background-color": "#ff7200",
-              "color": "#fff",
-              "font-weight": "400",
-              "text-align": "center",
-              "white-space": "nowrap",
-              "vertical-align": "middle",
-              "-webkit-user-select": "none",
-              "-moz-user-select": "none",
-              "-ms-user-select": "none",
-              "user-select": "none",
-              "border": "1px solid #ff7200",
-              "padding": ".375rem .75rem",
-              "font-size": "1rem",
-              "line-height": "1.5",
-              "border-radius": ".25rem",
-              "transition": "color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out"
+            ".block-content": {
+              "z-index": "2"
+            },
+            "@keyframes scroll-wrapper": {
+              "0%": {
+                "-webkit-transform": "translateX(0)",
+                "transform": "translateX(0)"
+              },
+              "100%": {
+                "-webkit-transform": "translateX(-100%)",
+                "transform": "translateX(-100%)"
+              }
+            },
+            "@-webkit-keyframes scroll-wrapper": {
+              "0%": {
+                "-webkit-transform": "translateX(0)",
+                "transform": "translateX(0)"
+              },
+              "100%": {
+                "-webkit-transform": "translateX(-100%)",
+                "transform": "translateX(-100%)"
+              }
+            },
+            "@-moz-keyframes scroll-wrapper": {
+              "0%": {
+                "-webkit-transform": "translateX(0)",
+                "transform": "translateX(0)"
+              },
+              "100%": {
+                "-webkit-transform": "translateX(-100%)",
+                "transform": "translateX(-100%)"
+              }
+            },
+            "@-o-keyframes scroll-wrapper": {
+              "0%": {
+                "-webkit-transform": "translateX(0)",
+                "transform": "translateX(0)"
+              },
+              "100%": {
+                "-webkit-transform": "translateX(-100%)",
+                "transform": "translateX(-100%)"
+              }
             }
           },
-          "_name": "design-block",
-          "_customHTML": "<section mbr-id=\"_anchor\" class=\"mbr-section typewriter_heading\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"15\" step=\"1\" value=\"15\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"15\" step=\"1\" value=\"8\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n<fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"file:///C:/Users/SINGA/AppData/Local/Mobirise.com/Mobirise/projects/project-2020-07-15_230636/assets/images/mbr-1920x1279.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#232323\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n      <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#465052\" condition=\"overlay && bg.type !== 'color'\">\n    <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <!---->\n    <!--Overlay-->\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n <div class=\"banner-sektion banner-overlay\" id=\"home\">\n    <div class=\"container text-left\">\n        <div class=\"col-md-12 col-xs-12\">\n            <div class=\"banner-heading \">\n                <div class=\"cont\"><span>EM BREVE,<span><br><span class=\"typewrite text-primary\" data-period=\"2000\" data-type=\"[ &quot;I am Creative .&quot;, &quot;I am Creative.&quot;, &quot;I Love to Design.&quot;, &quot;I Love to Develop.&quot; ]\">\n                    <span class=\"wrap\"></span></span></span></span></div>\n                <p>Estaremos fazendo alterações e implementações dentro de nossa plataforma<br>para que você e os demais envolvidos serão atualizador com suas informações.<br><br><a href=\"index.html\">VOLTAR &gt;</a></p>\n            </div>\n        </div>\n    </div>    \n\n</div>\n  <script>\n    //made by vipul mirajkar thevipulm.appspot.com\nvar TxtType = function(el, toRotate, period) {\n        this.toRotate = toRotate;\n        this.el = el;\n        this.loopNum = 0;\n        this.period = parseInt(period, 10) || 2000;\n        this.txt = '';\n        this.tick();\n        this.isDeleting = false;\n    };\n\n    TxtType.prototype.tick = function() {\n        var i = this.loopNum % this.toRotate.length;\n        var fullTxt = this.toRotate[i];\n\n        if (this.isDeleting) {\n        this.txt = fullTxt.substring(0, this.txt.length - 1);\n        } else {\n        this.txt = fullTxt.substring(0, this.txt.length + 1);\n        }\n\n        this.el.innerHTML = '<span class=\"wrap\">'+this.txt+'</span>';\n\n        var that = this;\n        var delta = 200 - Math.random() * 100;\n\n        if (this.isDeleting) { delta /= 2; }\n\n        if (!this.isDeleting && this.txt === fullTxt) {\n        delta = this.period;\n        this.isDeleting = true;\n        } else if (this.isDeleting && this.txt === '') {\n        this.isDeleting = false;\n        this.loopNum++;\n        delta = 500;\n        }\n\n        setTimeout(function() {\n        that.tick();\n        }, delta);\n    };\n\n    window.onload = function() {\n        var elements = document.getElementsByClassName('typewrite');\n        for (var i=0; i<elements.length; i++) {\n            var toRotate = elements[i].getAttribute('data-type');\n            var period = elements[i].getAttribute('data-period');\n            if (toRotate) {\n              new TxtType(elements[i], JSON.parse(toRotate), period);\n            }\n        }\n        // INJECT CSS\n        var css = document.createElement(\"style\");\n        css.type = \"text/css\";\n        css.innerHTML = \".typewrite > .wrap { border-right: 0.08em solid #fff}\";\n        document.body.appendChild(css);\n    };\n\n    </script>\n  \n</section>",
-          "_cid": "H0rYZRiBEj",
-          "_anchor": "design-block-H0rYZRiBEj",
+          "_name": "casperHeader4",
+          "_customHTML": "<section class=\"casperHeader4\" group=\"Casper Blocks\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n  <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n    <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\" condition=\"fullScreen\">\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"15\" step=\"1\" value=\"15\" condition=\"fullScreen == false\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"15\" step=\"1\" value=\"15\" condition=\"fullScreen == false\">\n    <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n    <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n    <input type=\"checkbox\" title=\"Scroll Bg\" name=\"scrollBg\" checked>\n    <input type=\"range\" title=\"Scroll Time\" name=\"scrollTime\" min=\"1\" max=\"60\" step=\"1\" value=\"17\" condition=\"scrollBg && bg.type == 'image'\" inline>\n    <fieldset type=\"background\" name=\"bg\">\n      <input type=\"image\" title=\"Background Image\" value=\"../_images/background10.jpg\" selected>\n      <input type=\"color\" title=\"Background Color\" value=\"#dddddd\">\n    </fieldset>\n    <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n    <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n    <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n  </mbr-parameters>\n  <div class=\"scroll-wrapper\" mbr-style=\"{'animation-duration':scrollTime+'s'}\"></div>\n  <div class=\"scroll-wrapper second\" mbr-if=\"scrollBg\" mbr-style=\"{'animation-duration':scrollTime+'s'}\"></div>\n  <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\">\n  </div>\n  <div class=\"container text-center block-content\" data-stellar-background-ratio=\".5\">\n    <div class=\"row justify-content-center slider-wrapper\" mbr-if=\"showTitle || showSubtitle\">\n      <div class=\"col-md-10\">\n        <h2 mbr-if=\"showTitle\" class=\"mbr-section-title mbr-fonts-style mbr-bold align-center\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-section-title\">EM BREVE ESTAREMOS ATUALIZANDO&nbsp;</h2>\n        <h4 class=\"mbr-text mbr-fonts-style align-center mbr-bold\" mbr-if=\"showSubtitle\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\">TUDO PARA VOCÊ !!!<br>WILLIAM BACHOT/OSIAS NOGUEIRA</h4>\n        <h4>\n        </h4>\n      </div>\n    </div>\n  </div>\n  <div mbr-if=\"showArrow && fullScreen\" class=\"mbr-arrow hidden-sm-down block-content\" aria-hidden=\"true\">\n    <a href=\"#next\">\n      <i class=\"mbri-down mbr-iconfont\"></i>\n    </a>\n  </div>\n</section>",
+          "_cid": "sAADCBD24H",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "casperHeader4-5p"
         }
       ]
     }
