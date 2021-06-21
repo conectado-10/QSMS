@@ -46,7 +46,7 @@
       }
     ],
     "favicon": false,
-    "imageResize": true,
+    "imageResize": false,
     "robotsSwitcher": false,
     "sitemapSwitcher": true,
     "sitemapSwitcherAuto": true,
