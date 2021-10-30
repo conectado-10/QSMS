@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "page3.html",
+    "currentPage": "page7.html",
     "theme": {
       "name": "creativem4",
       "title": "CreativeM4",
@@ -56,7 +56,7 @@
     "siteUrl": "HTTP://QSMS.COM",
     "cookiesAlert": false,
     "gdpr": false,
-    "uniqCompNum": 266,
+    "uniqCompNum": 267,
     "versionPublish": "4.12.4",
     "screenshot": "screenshot.png",
     "witsec-mailform": false
@@ -2898,27 +2898,6 @@
           "_customHTML": "<section class=\"mbr-section\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"text\" title=\"Modal Name (single word)\" name=\"modalID\" value=\"ATENÇÃO\">\n        <select name=\"modalSize\" title=\"Size\" condition=\"modalID\">\n            <option value=\"small\">Small</option>\n            <option value=\"medium\">Medium</option>\n            <option value=\"large\" selected>Large</option>\n        </select>\n        <input type=\"checkbox\" title=\"Header\" name=\"modalHeader\" condition=\"modalID\" checked>\n        <input type=\"checkbox\" title=\"Footer\" name=\"modalFooter\" condition=\"modalID\" checked>\n        <input type=\"checkbox\" title=\"Close Button\" name=\"modalCloseBtn\" condition=\"modalID && modalFooter\" checked>\n        <input type=\"checkbox\" title=\"Additional Buttons\" name=\"modalMoreBtns\" condition=\"modalID && modalFooter\">\n        <input type=\"checkbox\" title=\"Vertically Centered\" name=\"modalVertical\" condition=\"modalID\">\n        <input type=\"checkbox\" title=\"Fade Effect\" name=\"modalFade\" condition=\"modalID\" checked>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n<style>\n/* Let's not animate the contents of modal windows */\n.no-anim {\n    -webkit-animation: none !important;\n    -moz-animation: none !important;\n    -o-animation: none !important;\n    -ms-animation: none !important;\n    animation: none !important;\n}\n</style>\n\n<div mbr-class=\"{'hidden': isPublish}\" style=\"padding:1rem\" mbr-if=\"!modalID\">Click the \"gear\" icon to give your modal window an ID (use a single word only).</div>\n<div mbr-class=\"{'hidden': isPublish}\" style=\"padding:1rem\" mbr-if=\"modalID\">\n    <input type=\"button\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#{{modalID}}\" value=\"Preview {{modalID}}\">\n    <input type=\"button\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#{{modalID}}Help\" value=\"How to use\">\n    This preview button will be removed on preview/publish.\n</div>\n\n<div class=\"modal\" mbr-class=\"{'fade' : modalFade}\" id=\"{{modalID}}\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"{{modalID}}Label\" aria-hidden=\"true\">\n    <div class=\"modal-dialog\" mbr-class=\"{'modal-sm' : modalSize == 'small', 'modal-lg' : modalSize == 'large', 'modal-dialog-centered' : modalVertical}\" role=\"document\">\n        <div class=\"modal-content\">\n            <div class=\"modal-header\" mbr-if=\"modalHeader\">\n                <h5 class=\"no-anim modal-title\" id=\"{{modalID}}Label\">OLÁ, ATENÇÃO</h5>\n                <a href=\"#\" class=\"no-anim close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">×</span></a>\n            </div>\n            <p class=\"modal-body mbr-text align-left pb-3 mbr-fonts-style\" data-app-selector=\".mbr-text, .mbr-section-btn\">Em breve estaremos transmetindo procedimentos e acompanhamentos de materias</p>\n            <div class=\"modal-footer\" mbr-if=\"modalFooter\">\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"modalMoreBtns\" data-toolbar=\"-mbrBtnMove\"><a href=\"#\" class=\"no-anim btn btn-secondary\" data-dismiss=\"modal\" data-app-placeholder=\"Type Text\">Close</a>\n                    <a href=\"#\" class=\"no-anim btn btn-md btn-black-outline\" data-app-placeholder=\"Type Text\">Open</a></div>\n            </div>\n        </div>\n    </div>\n</div>\n\n<div class=\"modal fade\" mbr-class=\"{'hidden': isPublish}\" id=\"{{modalID}}Help\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"{{modalID}}HelpLabel\" aria-hidden=\"true\" mbr-if=\"modalID\">\n    <div class=\"modal-dialog\" role=\"document\">\n        <div class=\"modal-content\">\n            <div class=\"modal-header\">\n                <div class=\"h5 no-anim modal-title\" id=\"{{modalID}}HelpLabel\">Modal title</div>\n                <a href=\"#\" class=\"no-anim close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">×</span></a>\n            </div>\n            <div class=\"modal-body\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                Using your new modal is very easy. Simply create a new link, then click the \"...\" tab and enter the following as custom URL:<br><br>\n                <code>javascript:OpenModal('YourModalName')</code><br><br>\n                Replace 'YourModalName' with the name you chose.\n            </div>\n            <div class=\"modal-footer\">\n                <div mbr-theme-style=\"display-4\">\n                    <a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-dismiss=\"modal\">Close</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>\n\n<script>\nif (typeof OpenModal === 'undefined') {\n    OpenModal = function(modalName) {\n        if ($('#' + modalName).length)\n            $('#' + modalName).modal('show');\n    }\n}\n</script>    \n\n</section>",
           "_cid": "wZ3IyiTDM8",
           "_anchor": "design-block-wZ3IyiTDM8",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": "deltapi-code-editor",
-          "_isSecondary": true,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".mbr-section": {
-              "text-align": "center",
-              "color": "#fff"
-            }
-          },
-          "_name": "custom-html",
-          "_customHTML": "<div class=\"jotform-table-embed\" style=\"width: 100%; height: 600px;\" data-id=\"212613011652643\" data-type=\"interactive\"></div><script>(function(doc, id){var scripts=doc.getElementsByTagName(\"script\")[0]; if (!doc.getElementById(id)){var script=doc.createElement(\"script\"); script.async=1; script.id=id; script.src=\"https://cdn.jotfor.ms/common/tableEmbed.js\"; scripts.parentNode.insertBefore(script, scripts);}})(document, \"jotform-async\");</script>",
-          "_cid": "sNjqVjwAi3",
-          "_anchor": "custom-html-7d",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -6133,9 +6112,9 @@
             }
           },
           "_name": "custom-html",
-          "_customHTML": "<section mbr-id=\"_anchor\" class=\"mbr-section article content1\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    &lt;<!-- form.123formbuilder.com script begins here --><script type=\"text/javascript\" defer src=\"https://form.123formbuilder.com/embed/5828917.js\" data-role=\"form\" data-default-width=\"650px\"></script><!-- form.123formbuilder.com script ends here --></section>",
-          "_cid": "syTl9EfPol",
-          "_anchor": "custom-html-45",
+          "_customHTML": "\n\n\n<section mbr-id=\"_anchor\" class=\"mbr-section article content1\">\n\n<div class=\"jotform-table-embed\" style=\"width: 100%; height: 600px;\" data-id=\"213022515470039\" data-type=\"interactive\"></div><script>(function(doc, id){var scripts=doc.getElementsByTagName(\"script\")[0]; if (!doc.getElementById(id)){var script=doc.createElement(\"script\"); script.async=1; script.id=id; script.src=\"https://cdn.jotfor.ms/common/tableEmbed.js\"; scripts.parentNode.insertBefore(script, scripts);}})(document, \"jotform-async\");</script>",
+          "_cid": "sNk47mXUTZ",
+          "_anchor": "custom-html-7e",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
