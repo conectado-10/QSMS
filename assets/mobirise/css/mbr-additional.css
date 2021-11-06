@@ -4233,14 +4233,41 @@ background-color: @bgColor;
 @isScrollToTopButton: true;
 @isPublish: true;
 
-.cid-Sb5WYDZOQq {
-@topcolor: #efefef;
-@bottomcolor: #55b4d4;
-@shape: "2";
+.cid-KTn3UssmIE {
+@paddingTop: 9;
+@paddingBottom: 3;
+@showTitle: false;
+@showSubTitle: false;
+@showText: false;
+@showButtons: false;
+@waveColor: #ffffff;
+@uname__10: "https://i.imgur.com/FLszoiX.jpg";
+@uname__11: true;
+@uname__12: #00c48c;
+@bg-value: #00c48c;
+@bg-type: "color";
+@bg-color-value: #00c48c;
+@bg-parallax: false;
+@overlay: true;
+@overlayColor: #232323;
+@overlayOpacity: 0.5;
 
-background-color: @bottomcolor;
-.top {
-  fill: @topcolor;
+padding-top: (@paddingTop * 15px);
+padding-bottom: ((@paddingBottom * 15px) + 50px);
+& when (@bg-type = 'color') {
+  background-color: @bg-value;
+}
+& when (@bg-type = 'image') {
+  background-image: url(../../../@bg-value);
+}
+svg {
+  overflow: hidden;
+  vertical-align: middle;
+  position: absolute;
+  bottom: 0;
+}
+.wave {
+  fill: @waveColor;
 }
 }
 
