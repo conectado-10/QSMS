@@ -795,7 +795,7 @@ section.lazy-placeholder:after {
     padding-bottom: .25rem !important;
     padding-left: 0.5rem !important;
     padding-right: 0.5rem !important;
-    background: rgba(255, 207, 92, 0.95);
+    background: rgba(239, 239, 239, 0.95);
     text-align: center;
   }
   .cid-sy9f3kZ5w1 .navbar-brand {
@@ -1087,7 +1087,7 @@ section.lazy-placeholder:after {
   padding-bottom: .25rem !important;
   padding-left: 1.5rem !important;
   padding-right: 1.5rem !important;
-  background: rgba(255, 207, 92, 0.95);
+  background: rgba(239, 239, 239, 0.95);
   text-align: center;
   line-height: 1;
   transition: none;
@@ -1235,7 +1235,7 @@ section.lazy-placeholder:after {
 .cid-sy9f3kZ5w1 .TopMenuUnderline {
   border-style: solid;
   border-top-width: 0;
-  border-bottom-width: 5px;
+  border-bottom-width: 0.25px;
   border-left-width: 0;
   border-right-width: 0;
   border-color: #767676;
@@ -1273,8 +1273,8 @@ section.lazy-placeholder:after {
   border-right-width: 0;
   border-bottom-color: #232323;
   border-top-color: #232323;
-  background: rgba(245, 33, 16, 0.25) !important;
-  background: linear-gradient(to right, rgba(245, 33, 16, 0.25), rgba(255, 255, 255, 0.25), rgba(59, 196, 68, 0.25)) !important;
+  background: rgba(245, 33, 16, 0) !important;
+  background: linear-gradient(to right, rgba(245, 33, 16, 0), rgba(255, 255, 255, 0), rgba(59, 196, 68, 0)) !important;
   margin: 0;
   overflow: hidden;
   text-align: center;
@@ -1299,44 +1299,44 @@ section.lazy-placeholder:after {
   margin-right: 10px;
 }
 .cid-sy9f3kZ5w1 .topline-msg {
-  -moz-animation: Pulse 2.7s ease-out;
+  -moz-animation: Flash 2.6s infinite;
   -moz-animation-iteration-count: 5;
-  -webkit-animation: Pulse 2.7s ease-out;
+  -webkit-animation: Flash 2.6s infinite;
   -webkit-animation-iteration-count: 5;
-  animation: Pulse 2.7s ease-out;
+  animation: Flash 2.6s infinite;
   animation-iteration-count: 5;
 }
-@-moz-keyframes Pulse {
+@-moz-keyframes Flash {
   0% {
-    opacity: 0.5;
+    opacity: 1;
   }
   50% {
-    opacity: 1.0;
+    opacity: 0;
   }
   100% {
-    opacity: 0.5;
+    opacity: 1;
   }
 }
-@-webkit-keyframes Pulse {
+@-webkit-keyframes Flash {
   0% {
-    opacity: 0.5;
+    opacity: 1;
   }
   50% {
-    opacity: 1.0;
+    opacity: 0;
   }
   100% {
-    opacity: 0.5;
+    opacity: 1;
   }
 }
-@keyframes Pulse {
+@keyframes Flash {
   0% {
-    opacity: 0.5;
+    opacity: 1;
   }
   50% {
-    opacity: 1.0;
+    opacity: 0;
   }
   100% {
-    opacity: 0.5;
+    opacity: 1;
   }
 }
 .cid-sy9f3kZ5w1 img {
@@ -2609,7 +2609,7 @@ section.lazy-placeholder:after {
     padding-bottom: .25rem !important;
     padding-left: 0.5rem !important;
     padding-right: 0.5rem !important;
-    background: rgba(255, 207, 92, 0.95);
+    background: rgba(239, 239, 239, 0.95);
     text-align: center;
   }
   .cid-sy9f3kZ5w1 .navbar-brand {
@@ -2901,7 +2901,7 @@ section.lazy-placeholder:after {
   padding-bottom: .25rem !important;
   padding-left: 1.5rem !important;
   padding-right: 1.5rem !important;
-  background: rgba(255, 207, 92, 0.95);
+  background: rgba(239, 239, 239, 0.95);
   text-align: center;
   line-height: 1;
   transition: none;
@@ -3049,7 +3049,7 @@ section.lazy-placeholder:after {
 .cid-sy9f3kZ5w1 .TopMenuUnderline {
   border-style: solid;
   border-top-width: 0;
-  border-bottom-width: 5px;
+  border-bottom-width: 0.25px;
   border-left-width: 0;
   border-right-width: 0;
   border-color: #767676;
@@ -3087,8 +3087,8 @@ section.lazy-placeholder:after {
   border-right-width: 0;
   border-bottom-color: #232323;
   border-top-color: #232323;
-  background: rgba(245, 33, 16, 0.25) !important;
-  background: linear-gradient(to right, rgba(245, 33, 16, 0.25), rgba(255, 255, 255, 0.25), rgba(59, 196, 68, 0.25)) !important;
+  background: rgba(245, 33, 16, 0) !important;
+  background: linear-gradient(to right, rgba(245, 33, 16, 0), rgba(255, 255, 255, 0), rgba(59, 196, 68, 0)) !important;
   margin: 0;
   overflow: hidden;
   text-align: center;
@@ -3113,44 +3113,44 @@ section.lazy-placeholder:after {
   margin-right: 10px;
 }
 .cid-sy9f3kZ5w1 .topline-msg {
-  -moz-animation: Pulse 2.7s ease-out;
+  -moz-animation: Flash 2.6s infinite;
   -moz-animation-iteration-count: 5;
-  -webkit-animation: Pulse 2.7s ease-out;
+  -webkit-animation: Flash 2.6s infinite;
   -webkit-animation-iteration-count: 5;
-  animation: Pulse 2.7s ease-out;
+  animation: Flash 2.6s infinite;
   animation-iteration-count: 5;
 }
-@-moz-keyframes Pulse {
+@-moz-keyframes Flash {
   0% {
-    opacity: 0.5;
+    opacity: 1;
   }
   50% {
-    opacity: 1.0;
+    opacity: 0;
   }
   100% {
-    opacity: 0.5;
+    opacity: 1;
   }
 }
-@-webkit-keyframes Pulse {
+@-webkit-keyframes Flash {
   0% {
-    opacity: 0.5;
+    opacity: 1;
   }
   50% {
-    opacity: 1.0;
+    opacity: 0;
   }
   100% {
-    opacity: 0.5;
+    opacity: 1;
   }
 }
-@keyframes Pulse {
+@keyframes Flash {
   0% {
-    opacity: 0.5;
+    opacity: 1;
   }
   50% {
-    opacity: 1.0;
+    opacity: 0;
   }
   100% {
-    opacity: 0.5;
+    opacity: 1;
   }
 }
 .cid-sy9f3kZ5w1 img {
@@ -3191,7 +3191,7 @@ section.lazy-placeholder:after {
 @showTopLine: false;
 @showTopLineHamMenu: false;
 @showTopLineOnScroll: false;
-@TopLineEffect: "TopLineEffectPulse";
+@TopLineEffect: "TopLineEffectFlash";
 @TopLineEffectPulseSpeed: 2.7;
 @TopLineEffectPulseCount: 5;
 @TopLineEffectScrollSpeed: 15;
@@ -3200,7 +3200,7 @@ section.lazy-placeholder:after {
 @TopLineEffectFlashSpeed: 2.6;
 @TopLineEffectFlashCount: 5;
 @TopLineMouseHoverPause: true;
-@menuTopLineBgOpacity: 0.25;
+@menuTopLineBgOpacity: 0;
 @menuTopLineBgColor: #f52110;
 @menuTopLineBgGradientCol: true;
 @menuTopLineGradientBgStyle: "menuTopLineGradientBgLR3";
@@ -3221,7 +3221,7 @@ section.lazy-placeholder:after {
 @sticky: false;
 @collapsed: false;
 @showLogo: true;
-@logoSize: 3.8;
+@logoSize: 4.1;
 @logoSizeOnScrollDown: 3.8;
 @showBrand: true;
 @showBrandAllScreenPXWidth: true;
@@ -3243,10 +3243,10 @@ section.lazy-placeholder:after {
 @itemsHoverBkgChoice: false;
 @itemsHoverColBkg: #cccccc;
 @menuLineColor: #767676;
-@MenuUnderlineThicknessPX: 5;
+@MenuUnderlineThicknessPX: 0.25;
 @hamburgerColor: #232323;
 @HamL1menuBgColor: #ffffff;
-@HamL2menuBgColor: #ffcf5c;
+@HamL2menuBgColor: #efefef;
 @HamMenuBgOpacity: 0.95;
 @MenuBoxShadow: true;
 @SMBoxShadow: true;
@@ -4233,11 +4233,22 @@ background-color: @bgColor;
 @isScrollToTopButton: true;
 @isPublish: true;
 
+.cid-Sb5WYDZOQq {
+@topcolor: #efefef;
+@bottomcolor: #55b4d4;
+@shape: "2";
+
+background-color: @bottomcolor;
+.top {
+  fill: @topcolor;
+}
+}
+
 .cid-sy9f3kZ5w1 {
 @showTopLine: false;
 @showTopLineHamMenu: false;
 @showTopLineOnScroll: false;
-@TopLineEffect: "TopLineEffectPulse";
+@TopLineEffect: "TopLineEffectFlash";
 @TopLineEffectPulseSpeed: 2.7;
 @TopLineEffectPulseCount: 5;
 @TopLineEffectScrollSpeed: 15;
@@ -4246,7 +4257,7 @@ background-color: @bgColor;
 @TopLineEffectFlashSpeed: 2.6;
 @TopLineEffectFlashCount: 5;
 @TopLineMouseHoverPause: true;
-@menuTopLineBgOpacity: 0.25;
+@menuTopLineBgOpacity: 0;
 @menuTopLineBgColor: #f52110;
 @menuTopLineBgGradientCol: true;
 @menuTopLineGradientBgStyle: "menuTopLineGradientBgLR3";
@@ -4267,7 +4278,7 @@ background-color: @bgColor;
 @sticky: false;
 @collapsed: false;
 @showLogo: true;
-@logoSize: 3.8;
+@logoSize: 4.1;
 @logoSizeOnScrollDown: 3.8;
 @showBrand: true;
 @showBrandAllScreenPXWidth: true;
@@ -4289,10 +4300,10 @@ background-color: @bgColor;
 @itemsHoverBkgChoice: false;
 @itemsHoverColBkg: #cccccc;
 @menuLineColor: #767676;
-@MenuUnderlineThicknessPX: 5;
+@MenuUnderlineThicknessPX: 0.25;
 @hamburgerColor: #232323;
 @HamL1menuBgColor: #ffffff;
-@HamL2menuBgColor: #ffcf5c;
+@HamL2menuBgColor: #efefef;
 @HamMenuBgOpacity: 0.95;
 @MenuBoxShadow: true;
 @SMBoxShadow: true;
@@ -5408,7 +5419,7 @@ background-color: @bgColor;
     padding-bottom: .25rem !important;
     padding-left: 0.5rem !important;
     padding-right: 0.5rem !important;
-    background: rgba(255, 207, 92, 0.95);
+    background: rgba(239, 239, 239, 0.95);
     text-align: center;
   }
   .cid-sy9f3kZ5w1 .navbar-brand {
@@ -5700,7 +5711,7 @@ background-color: @bgColor;
   padding-bottom: .25rem !important;
   padding-left: 1.5rem !important;
   padding-right: 1.5rem !important;
-  background: rgba(255, 207, 92, 0.95);
+  background: rgba(239, 239, 239, 0.95);
   text-align: center;
   line-height: 1;
   transition: none;
@@ -5848,7 +5859,7 @@ background-color: @bgColor;
 .cid-sy9f3kZ5w1 .TopMenuUnderline {
   border-style: solid;
   border-top-width: 0;
-  border-bottom-width: 5px;
+  border-bottom-width: 0.25px;
   border-left-width: 0;
   border-right-width: 0;
   border-color: #767676;
@@ -5886,8 +5897,8 @@ background-color: @bgColor;
   border-right-width: 0;
   border-bottom-color: #232323;
   border-top-color: #232323;
-  background: rgba(245, 33, 16, 0.25) !important;
-  background: linear-gradient(to right, rgba(245, 33, 16, 0.25), rgba(255, 255, 255, 0.25), rgba(59, 196, 68, 0.25)) !important;
+  background: rgba(245, 33, 16, 0) !important;
+  background: linear-gradient(to right, rgba(245, 33, 16, 0), rgba(255, 255, 255, 0), rgba(59, 196, 68, 0)) !important;
   margin: 0;
   overflow: hidden;
   text-align: center;
@@ -5912,44 +5923,44 @@ background-color: @bgColor;
   margin-right: 10px;
 }
 .cid-sy9f3kZ5w1 .topline-msg {
-  -moz-animation: Pulse 2.7s ease-out;
+  -moz-animation: Flash 2.6s infinite;
   -moz-animation-iteration-count: 5;
-  -webkit-animation: Pulse 2.7s ease-out;
+  -webkit-animation: Flash 2.6s infinite;
   -webkit-animation-iteration-count: 5;
-  animation: Pulse 2.7s ease-out;
+  animation: Flash 2.6s infinite;
   animation-iteration-count: 5;
 }
-@-moz-keyframes Pulse {
+@-moz-keyframes Flash {
   0% {
-    opacity: 0.5;
+    opacity: 1;
   }
   50% {
-    opacity: 1.0;
+    opacity: 0;
   }
   100% {
-    opacity: 0.5;
+    opacity: 1;
   }
 }
-@-webkit-keyframes Pulse {
+@-webkit-keyframes Flash {
   0% {
-    opacity: 0.5;
+    opacity: 1;
   }
   50% {
-    opacity: 1.0;
+    opacity: 0;
   }
   100% {
-    opacity: 0.5;
+    opacity: 1;
   }
 }
-@keyframes Pulse {
+@keyframes Flash {
   0% {
-    opacity: 0.5;
+    opacity: 1;
   }
   50% {
-    opacity: 1.0;
+    opacity: 0;
   }
   100% {
-    opacity: 0.5;
+    opacity: 1;
   }
 }
 .cid-sy9f3kZ5w1 img {
@@ -6109,7 +6120,7 @@ background-color: @bgColor;
     padding-bottom: .25rem !important;
     padding-left: 0.5rem !important;
     padding-right: 0.5rem !important;
-    background: rgba(255, 207, 92, 0.95);
+    background: rgba(239, 239, 239, 0.95);
     text-align: center;
   }
   .cid-sy9f3kZ5w1 .navbar-brand {
@@ -6401,7 +6412,7 @@ background-color: @bgColor;
   padding-bottom: .25rem !important;
   padding-left: 1.5rem !important;
   padding-right: 1.5rem !important;
-  background: rgba(255, 207, 92, 0.95);
+  background: rgba(239, 239, 239, 0.95);
   text-align: center;
   line-height: 1;
   transition: none;
@@ -6549,7 +6560,7 @@ background-color: @bgColor;
 .cid-sy9f3kZ5w1 .TopMenuUnderline {
   border-style: solid;
   border-top-width: 0;
-  border-bottom-width: 5px;
+  border-bottom-width: 0.25px;
   border-left-width: 0;
   border-right-width: 0;
   border-color: #767676;
@@ -6587,8 +6598,8 @@ background-color: @bgColor;
   border-right-width: 0;
   border-bottom-color: #232323;
   border-top-color: #232323;
-  background: rgba(245, 33, 16, 0.25) !important;
-  background: linear-gradient(to right, rgba(245, 33, 16, 0.25), rgba(255, 255, 255, 0.25), rgba(59, 196, 68, 0.25)) !important;
+  background: rgba(245, 33, 16, 0) !important;
+  background: linear-gradient(to right, rgba(245, 33, 16, 0), rgba(255, 255, 255, 0), rgba(59, 196, 68, 0)) !important;
   margin: 0;
   overflow: hidden;
   text-align: center;
@@ -6613,44 +6624,44 @@ background-color: @bgColor;
   margin-right: 10px;
 }
 .cid-sy9f3kZ5w1 .topline-msg {
-  -moz-animation: Pulse 2.7s ease-out;
+  -moz-animation: Flash 2.6s infinite;
   -moz-animation-iteration-count: 5;
-  -webkit-animation: Pulse 2.7s ease-out;
+  -webkit-animation: Flash 2.6s infinite;
   -webkit-animation-iteration-count: 5;
-  animation: Pulse 2.7s ease-out;
+  animation: Flash 2.6s infinite;
   animation-iteration-count: 5;
 }
-@-moz-keyframes Pulse {
+@-moz-keyframes Flash {
   0% {
-    opacity: 0.5;
+    opacity: 1;
   }
   50% {
-    opacity: 1.0;
+    opacity: 0;
   }
   100% {
-    opacity: 0.5;
+    opacity: 1;
   }
 }
-@-webkit-keyframes Pulse {
+@-webkit-keyframes Flash {
   0% {
-    opacity: 0.5;
+    opacity: 1;
   }
   50% {
-    opacity: 1.0;
+    opacity: 0;
   }
   100% {
-    opacity: 0.5;
+    opacity: 1;
   }
 }
-@keyframes Pulse {
+@keyframes Flash {
   0% {
-    opacity: 0.5;
+    opacity: 1;
   }
   50% {
-    opacity: 1.0;
+    opacity: 0;
   }
   100% {
-    opacity: 0.5;
+    opacity: 1;
   }
 }
 .cid-sy9f3kZ5w1 img {
@@ -6810,7 +6821,7 @@ background-color: @bgColor;
     padding-bottom: .25rem !important;
     padding-left: 0.5rem !important;
     padding-right: 0.5rem !important;
-    background: rgba(255, 207, 92, 0.95);
+    background: rgba(239, 239, 239, 0.95);
     text-align: center;
   }
   .cid-szyJ49DZNw .navbar-brand {
@@ -7102,7 +7113,7 @@ background-color: @bgColor;
   padding-bottom: .25rem !important;
   padding-left: 1.5rem !important;
   padding-right: 1.5rem !important;
-  background: rgba(255, 207, 92, 0.95);
+  background: rgba(239, 239, 239, 0.95);
   text-align: center;
   line-height: 1;
   transition: none;
@@ -7250,7 +7261,7 @@ background-color: @bgColor;
 .cid-szyJ49DZNw .TopMenuUnderline {
   border-style: solid;
   border-top-width: 0;
-  border-bottom-width: 5px;
+  border-bottom-width: 0.25px;
   border-left-width: 0;
   border-right-width: 0;
   border-color: #767676;
@@ -7288,8 +7299,8 @@ background-color: @bgColor;
   border-right-width: 0;
   border-bottom-color: #232323;
   border-top-color: #232323;
-  background: rgba(245, 33, 16, 0.25) !important;
-  background: linear-gradient(to right, rgba(245, 33, 16, 0.25), rgba(255, 255, 255, 0.25), rgba(59, 196, 68, 0.25)) !important;
+  background: rgba(245, 33, 16, 0) !important;
+  background: linear-gradient(to right, rgba(245, 33, 16, 0), rgba(255, 255, 255, 0), rgba(59, 196, 68, 0)) !important;
   margin: 0;
   overflow: hidden;
   text-align: center;
@@ -7314,44 +7325,44 @@ background-color: @bgColor;
   margin-right: 10px;
 }
 .cid-szyJ49DZNw .topline-msg {
-  -moz-animation: Pulse 2.7s ease-out;
+  -moz-animation: Flash 2.6s infinite;
   -moz-animation-iteration-count: 5;
-  -webkit-animation: Pulse 2.7s ease-out;
+  -webkit-animation: Flash 2.6s infinite;
   -webkit-animation-iteration-count: 5;
-  animation: Pulse 2.7s ease-out;
+  animation: Flash 2.6s infinite;
   animation-iteration-count: 5;
 }
-@-moz-keyframes Pulse {
+@-moz-keyframes Flash {
   0% {
-    opacity: 0.5;
+    opacity: 1;
   }
   50% {
-    opacity: 1.0;
+    opacity: 0;
   }
   100% {
-    opacity: 0.5;
+    opacity: 1;
   }
 }
-@-webkit-keyframes Pulse {
+@-webkit-keyframes Flash {
   0% {
-    opacity: 0.5;
+    opacity: 1;
   }
   50% {
-    opacity: 1.0;
+    opacity: 0;
   }
   100% {
-    opacity: 0.5;
+    opacity: 1;
   }
 }
-@keyframes Pulse {
+@keyframes Flash {
   0% {
-    opacity: 0.5;
+    opacity: 1;
   }
   50% {
-    opacity: 1.0;
+    opacity: 0;
   }
   100% {
-    opacity: 0.5;
+    opacity: 1;
   }
 }
 .cid-szyJ49DZNw img {
@@ -7520,7 +7531,7 @@ background-color: @bgColor;
     padding-bottom: .25rem !important;
     padding-left: 0.5rem !important;
     padding-right: 0.5rem !important;
-    background: rgba(255, 207, 92, 0.95);
+    background: rgba(239, 239, 239, 0.95);
     text-align: center;
   }
   .cid-sy9f3kZ5w1 .navbar-brand {
@@ -7812,7 +7823,7 @@ background-color: @bgColor;
   padding-bottom: .25rem !important;
   padding-left: 1.5rem !important;
   padding-right: 1.5rem !important;
-  background: rgba(255, 207, 92, 0.95);
+  background: rgba(239, 239, 239, 0.95);
   text-align: center;
   line-height: 1;
   transition: none;
@@ -7960,7 +7971,7 @@ background-color: @bgColor;
 .cid-sy9f3kZ5w1 .TopMenuUnderline {
   border-style: solid;
   border-top-width: 0;
-  border-bottom-width: 5px;
+  border-bottom-width: 0.25px;
   border-left-width: 0;
   border-right-width: 0;
   border-color: #767676;
@@ -7998,8 +8009,8 @@ background-color: @bgColor;
   border-right-width: 0;
   border-bottom-color: #232323;
   border-top-color: #232323;
-  background: rgba(245, 33, 16, 0.25) !important;
-  background: linear-gradient(to right, rgba(245, 33, 16, 0.25), rgba(255, 255, 255, 0.25), rgba(59, 196, 68, 0.25)) !important;
+  background: rgba(245, 33, 16, 0) !important;
+  background: linear-gradient(to right, rgba(245, 33, 16, 0), rgba(255, 255, 255, 0), rgba(59, 196, 68, 0)) !important;
   margin: 0;
   overflow: hidden;
   text-align: center;
@@ -8024,44 +8035,44 @@ background-color: @bgColor;
   margin-right: 10px;
 }
 .cid-sy9f3kZ5w1 .topline-msg {
-  -moz-animation: Pulse 2.7s ease-out;
+  -moz-animation: Flash 2.6s infinite;
   -moz-animation-iteration-count: 5;
-  -webkit-animation: Pulse 2.7s ease-out;
+  -webkit-animation: Flash 2.6s infinite;
   -webkit-animation-iteration-count: 5;
-  animation: Pulse 2.7s ease-out;
+  animation: Flash 2.6s infinite;
   animation-iteration-count: 5;
 }
-@-moz-keyframes Pulse {
+@-moz-keyframes Flash {
   0% {
-    opacity: 0.5;
+    opacity: 1;
   }
   50% {
-    opacity: 1.0;
+    opacity: 0;
   }
   100% {
-    opacity: 0.5;
+    opacity: 1;
   }
 }
-@-webkit-keyframes Pulse {
+@-webkit-keyframes Flash {
   0% {
-    opacity: 0.5;
+    opacity: 1;
   }
   50% {
-    opacity: 1.0;
+    opacity: 0;
   }
   100% {
-    opacity: 0.5;
+    opacity: 1;
   }
 }
-@keyframes Pulse {
+@keyframes Flash {
   0% {
-    opacity: 0.5;
+    opacity: 1;
   }
   50% {
-    opacity: 1.0;
+    opacity: 0;
   }
   100% {
-    opacity: 0.5;
+    opacity: 1;
   }
 }
 .cid-sy9f3kZ5w1 img {
@@ -8221,7 +8232,7 @@ background-color: @bgColor;
     padding-bottom: .25rem !important;
     padding-left: 0.5rem !important;
     padding-right: 0.5rem !important;
-    background: rgba(255, 207, 92, 0.95);
+    background: rgba(239, 239, 239, 0.95);
     text-align: center;
   }
   .cid-sy9f3kZ5w1 .navbar-brand {
@@ -8513,7 +8524,7 @@ background-color: @bgColor;
   padding-bottom: .25rem !important;
   padding-left: 1.5rem !important;
   padding-right: 1.5rem !important;
-  background: rgba(255, 207, 92, 0.95);
+  background: rgba(239, 239, 239, 0.95);
   text-align: center;
   line-height: 1;
   transition: none;
@@ -8661,7 +8672,7 @@ background-color: @bgColor;
 .cid-sy9f3kZ5w1 .TopMenuUnderline {
   border-style: solid;
   border-top-width: 0;
-  border-bottom-width: 5px;
+  border-bottom-width: 0.25px;
   border-left-width: 0;
   border-right-width: 0;
   border-color: #767676;
@@ -8699,8 +8710,8 @@ background-color: @bgColor;
   border-right-width: 0;
   border-bottom-color: #232323;
   border-top-color: #232323;
-  background: rgba(245, 33, 16, 0.25) !important;
-  background: linear-gradient(to right, rgba(245, 33, 16, 0.25), rgba(255, 255, 255, 0.25), rgba(59, 196, 68, 0.25)) !important;
+  background: rgba(245, 33, 16, 0) !important;
+  background: linear-gradient(to right, rgba(245, 33, 16, 0), rgba(255, 255, 255, 0), rgba(59, 196, 68, 0)) !important;
   margin: 0;
   overflow: hidden;
   text-align: center;
@@ -8725,44 +8736,44 @@ background-color: @bgColor;
   margin-right: 10px;
 }
 .cid-sy9f3kZ5w1 .topline-msg {
-  -moz-animation: Pulse 2.7s ease-out;
+  -moz-animation: Flash 2.6s infinite;
   -moz-animation-iteration-count: 5;
-  -webkit-animation: Pulse 2.7s ease-out;
+  -webkit-animation: Flash 2.6s infinite;
   -webkit-animation-iteration-count: 5;
-  animation: Pulse 2.7s ease-out;
+  animation: Flash 2.6s infinite;
   animation-iteration-count: 5;
 }
-@-moz-keyframes Pulse {
+@-moz-keyframes Flash {
   0% {
-    opacity: 0.5;
+    opacity: 1;
   }
   50% {
-    opacity: 1.0;
+    opacity: 0;
   }
   100% {
-    opacity: 0.5;
+    opacity: 1;
   }
 }
-@-webkit-keyframes Pulse {
+@-webkit-keyframes Flash {
   0% {
-    opacity: 0.5;
+    opacity: 1;
   }
   50% {
-    opacity: 1.0;
+    opacity: 0;
   }
   100% {
-    opacity: 0.5;
+    opacity: 1;
   }
 }
-@keyframes Pulse {
+@keyframes Flash {
   0% {
-    opacity: 0.5;
+    opacity: 1;
   }
   50% {
-    opacity: 1.0;
+    opacity: 0;
   }
   100% {
-    opacity: 0.5;
+    opacity: 1;
   }
 }
 .cid-sy9f3kZ5w1 img {
@@ -9054,7 +9065,7 @@ background-color: @bgColor;
     padding-bottom: .25rem !important;
     padding-left: 0.5rem !important;
     padding-right: 0.5rem !important;
-    background: rgba(255, 207, 92, 0.95);
+    background: rgba(239, 239, 239, 0.95);
     text-align: center;
   }
   .cid-sy9f3kZ5w1 .navbar-brand {
@@ -9346,7 +9357,7 @@ background-color: @bgColor;
   padding-bottom: .25rem !important;
   padding-left: 1.5rem !important;
   padding-right: 1.5rem !important;
-  background: rgba(255, 207, 92, 0.95);
+  background: rgba(239, 239, 239, 0.95);
   text-align: center;
   line-height: 1;
   transition: none;
@@ -9494,7 +9505,7 @@ background-color: @bgColor;
 .cid-sy9f3kZ5w1 .TopMenuUnderline {
   border-style: solid;
   border-top-width: 0;
-  border-bottom-width: 5px;
+  border-bottom-width: 0.25px;
   border-left-width: 0;
   border-right-width: 0;
   border-color: #767676;
@@ -9532,8 +9543,8 @@ background-color: @bgColor;
   border-right-width: 0;
   border-bottom-color: #232323;
   border-top-color: #232323;
-  background: rgba(245, 33, 16, 0.25) !important;
-  background: linear-gradient(to right, rgba(245, 33, 16, 0.25), rgba(255, 255, 255, 0.25), rgba(59, 196, 68, 0.25)) !important;
+  background: rgba(245, 33, 16, 0) !important;
+  background: linear-gradient(to right, rgba(245, 33, 16, 0), rgba(255, 255, 255, 0), rgba(59, 196, 68, 0)) !important;
   margin: 0;
   overflow: hidden;
   text-align: center;
@@ -9558,44 +9569,44 @@ background-color: @bgColor;
   margin-right: 10px;
 }
 .cid-sy9f3kZ5w1 .topline-msg {
-  -moz-animation: Pulse 2.7s ease-out;
+  -moz-animation: Flash 2.6s infinite;
   -moz-animation-iteration-count: 5;
-  -webkit-animation: Pulse 2.7s ease-out;
+  -webkit-animation: Flash 2.6s infinite;
   -webkit-animation-iteration-count: 5;
-  animation: Pulse 2.7s ease-out;
+  animation: Flash 2.6s infinite;
   animation-iteration-count: 5;
 }
-@-moz-keyframes Pulse {
+@-moz-keyframes Flash {
   0% {
-    opacity: 0.5;
+    opacity: 1;
   }
   50% {
-    opacity: 1.0;
+    opacity: 0;
   }
   100% {
-    opacity: 0.5;
+    opacity: 1;
   }
 }
-@-webkit-keyframes Pulse {
+@-webkit-keyframes Flash {
   0% {
-    opacity: 0.5;
+    opacity: 1;
   }
   50% {
-    opacity: 1.0;
+    opacity: 0;
   }
   100% {
-    opacity: 0.5;
+    opacity: 1;
   }
 }
-@keyframes Pulse {
+@keyframes Flash {
   0% {
-    opacity: 0.5;
+    opacity: 1;
   }
   50% {
-    opacity: 1.0;
+    opacity: 0;
   }
   100% {
-    opacity: 0.5;
+    opacity: 1;
   }
 }
 .cid-sy9f3kZ5w1 img {
@@ -9716,7 +9727,7 @@ background-color: @bgColor;
 @showTopLine: false;
 @showTopLineHamMenu: false;
 @showTopLineOnScroll: false;
-@TopLineEffect: "TopLineEffectPulse";
+@TopLineEffect: "TopLineEffectFlash";
 @TopLineEffectPulseSpeed: 2.7;
 @TopLineEffectPulseCount: 5;
 @TopLineEffectScrollSpeed: 15;
@@ -9725,7 +9736,7 @@ background-color: @bgColor;
 @TopLineEffectFlashSpeed: 2.6;
 @TopLineEffectFlashCount: 5;
 @TopLineMouseHoverPause: true;
-@menuTopLineBgOpacity: 0.25;
+@menuTopLineBgOpacity: 0;
 @menuTopLineBgColor: #f52110;
 @menuTopLineBgGradientCol: true;
 @menuTopLineGradientBgStyle: "menuTopLineGradientBgLR3";
@@ -9746,7 +9757,7 @@ background-color: @bgColor;
 @sticky: false;
 @collapsed: false;
 @showLogo: true;
-@logoSize: 3.8;
+@logoSize: 4.1;
 @logoSizeOnScrollDown: 3.8;
 @showBrand: true;
 @showBrandAllScreenPXWidth: true;
@@ -9768,10 +9779,10 @@ background-color: @bgColor;
 @itemsHoverBkgChoice: false;
 @itemsHoverColBkg: #cccccc;
 @menuLineColor: #767676;
-@MenuUnderlineThicknessPX: 5;
+@MenuUnderlineThicknessPX: 0.25;
 @hamburgerColor: #232323;
 @HamL1menuBgColor: #ffffff;
-@HamL2menuBgColor: #ffcf5c;
+@HamL2menuBgColor: #efefef;
 @HamMenuBgOpacity: 0.95;
 @MenuBoxShadow: true;
 @SMBoxShadow: true;
@@ -10887,7 +10898,7 @@ background-color: @bgColor;
     padding-bottom: .25rem !important;
     padding-left: 0.5rem !important;
     padding-right: 0.5rem !important;
-    background: rgba(255, 207, 92, 0.95);
+    background: rgba(239, 239, 239, 0.95);
     text-align: center;
   }
   .cid-sy9f3kZ5w1 .navbar-brand {
@@ -11179,7 +11190,7 @@ background-color: @bgColor;
   padding-bottom: .25rem !important;
   padding-left: 1.5rem !important;
   padding-right: 1.5rem !important;
-  background: rgba(255, 207, 92, 0.95);
+  background: rgba(239, 239, 239, 0.95);
   text-align: center;
   line-height: 1;
   transition: none;
@@ -11327,7 +11338,7 @@ background-color: @bgColor;
 .cid-sy9f3kZ5w1 .TopMenuUnderline {
   border-style: solid;
   border-top-width: 0;
-  border-bottom-width: 5px;
+  border-bottom-width: 0.25px;
   border-left-width: 0;
   border-right-width: 0;
   border-color: #767676;
@@ -11365,8 +11376,8 @@ background-color: @bgColor;
   border-right-width: 0;
   border-bottom-color: #232323;
   border-top-color: #232323;
-  background: rgba(245, 33, 16, 0.25) !important;
-  background: linear-gradient(to right, rgba(245, 33, 16, 0.25), rgba(255, 255, 255, 0.25), rgba(59, 196, 68, 0.25)) !important;
+  background: rgba(245, 33, 16, 0) !important;
+  background: linear-gradient(to right, rgba(245, 33, 16, 0), rgba(255, 255, 255, 0), rgba(59, 196, 68, 0)) !important;
   margin: 0;
   overflow: hidden;
   text-align: center;
@@ -11391,44 +11402,44 @@ background-color: @bgColor;
   margin-right: 10px;
 }
 .cid-sy9f3kZ5w1 .topline-msg {
-  -moz-animation: Pulse 2.7s ease-out;
+  -moz-animation: Flash 2.6s infinite;
   -moz-animation-iteration-count: 5;
-  -webkit-animation: Pulse 2.7s ease-out;
+  -webkit-animation: Flash 2.6s infinite;
   -webkit-animation-iteration-count: 5;
-  animation: Pulse 2.7s ease-out;
+  animation: Flash 2.6s infinite;
   animation-iteration-count: 5;
 }
-@-moz-keyframes Pulse {
+@-moz-keyframes Flash {
   0% {
-    opacity: 0.5;
+    opacity: 1;
   }
   50% {
-    opacity: 1.0;
+    opacity: 0;
   }
   100% {
-    opacity: 0.5;
+    opacity: 1;
   }
 }
-@-webkit-keyframes Pulse {
+@-webkit-keyframes Flash {
   0% {
-    opacity: 0.5;
+    opacity: 1;
   }
   50% {
-    opacity: 1.0;
+    opacity: 0;
   }
   100% {
-    opacity: 0.5;
+    opacity: 1;
   }
 }
-@keyframes Pulse {
+@keyframes Flash {
   0% {
-    opacity: 0.5;
+    opacity: 1;
   }
   50% {
-    opacity: 1.0;
+    opacity: 0;
   }
   100% {
-    opacity: 0.5;
+    opacity: 1;
   }
 }
 .cid-sy9f3kZ5w1 img {
@@ -11872,7 +11883,7 @@ background-color: @bgColor;
     padding-bottom: .25rem !important;
     padding-left: 0.5rem !important;
     padding-right: 0.5rem !important;
-    background: rgba(255, 207, 92, 0.95);
+    background: rgba(239, 239, 239, 0.95);
     text-align: center;
   }
   .cid-sy9f3kZ5w1 .navbar-brand {
@@ -12164,7 +12175,7 @@ background-color: @bgColor;
   padding-bottom: .25rem !important;
   padding-left: 1.5rem !important;
   padding-right: 1.5rem !important;
-  background: rgba(255, 207, 92, 0.95);
+  background: rgba(239, 239, 239, 0.95);
   text-align: center;
   line-height: 1;
   transition: none;
@@ -12312,7 +12323,7 @@ background-color: @bgColor;
 .cid-sy9f3kZ5w1 .TopMenuUnderline {
   border-style: solid;
   border-top-width: 0;
-  border-bottom-width: 5px;
+  border-bottom-width: 0.25px;
   border-left-width: 0;
   border-right-width: 0;
   border-color: #767676;
@@ -12350,8 +12361,8 @@ background-color: @bgColor;
   border-right-width: 0;
   border-bottom-color: #232323;
   border-top-color: #232323;
-  background: rgba(245, 33, 16, 0.25) !important;
-  background: linear-gradient(to right, rgba(245, 33, 16, 0.25), rgba(255, 255, 255, 0.25), rgba(59, 196, 68, 0.25)) !important;
+  background: rgba(245, 33, 16, 0) !important;
+  background: linear-gradient(to right, rgba(245, 33, 16, 0), rgba(255, 255, 255, 0), rgba(59, 196, 68, 0)) !important;
   margin: 0;
   overflow: hidden;
   text-align: center;
@@ -12376,44 +12387,44 @@ background-color: @bgColor;
   margin-right: 10px;
 }
 .cid-sy9f3kZ5w1 .topline-msg {
-  -moz-animation: Pulse 2.7s ease-out;
+  -moz-animation: Flash 2.6s infinite;
   -moz-animation-iteration-count: 5;
-  -webkit-animation: Pulse 2.7s ease-out;
+  -webkit-animation: Flash 2.6s infinite;
   -webkit-animation-iteration-count: 5;
-  animation: Pulse 2.7s ease-out;
+  animation: Flash 2.6s infinite;
   animation-iteration-count: 5;
 }
-@-moz-keyframes Pulse {
+@-moz-keyframes Flash {
   0% {
-    opacity: 0.5;
+    opacity: 1;
   }
   50% {
-    opacity: 1.0;
+    opacity: 0;
   }
   100% {
-    opacity: 0.5;
+    opacity: 1;
   }
 }
-@-webkit-keyframes Pulse {
+@-webkit-keyframes Flash {
   0% {
-    opacity: 0.5;
+    opacity: 1;
   }
   50% {
-    opacity: 1.0;
+    opacity: 0;
   }
   100% {
-    opacity: 0.5;
+    opacity: 1;
   }
 }
-@keyframes Pulse {
+@keyframes Flash {
   0% {
-    opacity: 0.5;
+    opacity: 1;
   }
   50% {
-    opacity: 1.0;
+    opacity: 0;
   }
   100% {
-    opacity: 0.5;
+    opacity: 1;
   }
 }
 .cid-sy9f3kZ5w1 img {
