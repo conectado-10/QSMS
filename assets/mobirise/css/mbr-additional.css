@@ -1580,6 +1580,31 @@ section.lazy-placeholder:after {
 .cid-KPihmgWEVz H5 {
   color: #232323;
 }
+.cid-ipJoobi3At {
+  padding-top: 120px;
+  padding-bottom: 30px;
+  background-image: url("../../../assets/images/equipamento-de-proteo-individual.-1920x639.jpg");
+}
+.cid-ipJoobi3At .section-text {
+  text-align: left;
+}
+.cid-ipJoobi3At .bgcolorjumb {
+  background-color: #ffffff;
+  padding: 4rem 2rem;
+  margin-bottom: 2rem;
+  border-radius: .3rem;
+}
+.cid-ipJoobi3At H1 {
+  text-align: left;
+  color: #0f7699;
+}
+.cid-ipJoobi3At P {
+  text-align: left;
+  color: #1b0c83;
+}
+.cid-ipJoobi3At .subtextcolor {
+  color: #cc2952;
+}
 .cid-sy9f3kZ5w1 .dropdown-item:before {
   font-family: MobiriseIcons !important;
   content: '\e966';
