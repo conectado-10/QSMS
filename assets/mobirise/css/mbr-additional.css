@@ -795,7 +795,7 @@ section.lazy-placeholder:after {
     padding-bottom: .25rem !important;
     padding-left: 0.5rem !important;
     padding-right: 0.5rem !important;
-    background: rgba(239, 239, 239, 0.95);
+    background: rgba(255, 207, 92, 0.95);
     text-align: center;
   }
   .cid-sy9f3kZ5w1 .navbar-brand {
@@ -1087,7 +1087,7 @@ section.lazy-placeholder:after {
   padding-bottom: .25rem !important;
   padding-left: 1.5rem !important;
   padding-right: 1.5rem !important;
-  background: rgba(239, 239, 239, 0.95);
+  background: rgba(255, 207, 92, 0.95);
   text-align: center;
   line-height: 1;
   transition: none;
@@ -1235,7 +1235,7 @@ section.lazy-placeholder:after {
 .cid-sy9f3kZ5w1 .TopMenuUnderline {
   border-style: solid;
   border-top-width: 0;
-  border-bottom-width: 0.25px;
+  border-bottom-width: 5px;
   border-left-width: 0;
   border-right-width: 0;
   border-color: #767676;
@@ -1273,8 +1273,8 @@ section.lazy-placeholder:after {
   border-right-width: 0;
   border-bottom-color: #232323;
   border-top-color: #232323;
-  background: rgba(245, 33, 16, 0) !important;
-  background: linear-gradient(to right, rgba(245, 33, 16, 0), rgba(255, 255, 255, 0), rgba(59, 196, 68, 0)) !important;
+  background: rgba(245, 33, 16, 0.25) !important;
+  background: linear-gradient(to right, rgba(245, 33, 16, 0.25), rgba(255, 255, 255, 0.25), rgba(59, 196, 68, 0.25)) !important;
   margin: 0;
   overflow: hidden;
   text-align: center;
@@ -1299,44 +1299,44 @@ section.lazy-placeholder:after {
   margin-right: 10px;
 }
 .cid-sy9f3kZ5w1 .topline-msg {
-  -moz-animation: Flash 2.6s infinite;
+  -moz-animation: Pulse 2.7s ease-out;
   -moz-animation-iteration-count: 5;
-  -webkit-animation: Flash 2.6s infinite;
+  -webkit-animation: Pulse 2.7s ease-out;
   -webkit-animation-iteration-count: 5;
-  animation: Flash 2.6s infinite;
+  animation: Pulse 2.7s ease-out;
   animation-iteration-count: 5;
 }
-@-moz-keyframes Flash {
+@-moz-keyframes Pulse {
   0% {
-    opacity: 1;
+    opacity: 0.5;
   }
   50% {
-    opacity: 0;
+    opacity: 1.0;
   }
   100% {
-    opacity: 1;
+    opacity: 0.5;
   }
 }
-@-webkit-keyframes Flash {
+@-webkit-keyframes Pulse {
   0% {
-    opacity: 1;
+    opacity: 0.5;
   }
   50% {
-    opacity: 0;
+    opacity: 1.0;
   }
   100% {
-    opacity: 1;
+    opacity: 0.5;
   }
 }
-@keyframes Flash {
+@keyframes Pulse {
   0% {
-    opacity: 1;
+    opacity: 0.5;
   }
   50% {
-    opacity: 0;
+    opacity: 1.0;
   }
   100% {
-    opacity: 1;
+    opacity: 0.5;
   }
 }
 .cid-sy9f3kZ5w1 img {
@@ -1580,30 +1580,77 @@ section.lazy-placeholder:after {
 .cid-KPihmgWEVz H5 {
   color: #232323;
 }
-.cid-ipJoobi3At {
+.cid-synpJTbLMy {
   padding-top: 120px;
-  padding-bottom: 30px;
-  background-image: url("../../../assets/images/equipamento-de-proteo-individual.-1920x639.jpg");
+  padding-bottom: 90px;
+  background-image: url("../../../assets/images/background4.jpg");
 }
-.cid-ipJoobi3At .section-text {
-  text-align: left;
+.cid-synpJTbLMy .container {
+  backdrop-filter: blur(10px);
+  border: 1px solid white;
+  padding: 15px;
 }
-.cid-ipJoobi3At .bgcolorjumb {
-  background-color: #ffffff;
-  padding: 4rem 2rem;
-  margin-bottom: 2rem;
-  border-radius: .3rem;
+.cid-synpJTbLMy .mbr-overlay {
+  background: linear-gradient(90deg, #149dcc, #b2ccd2);
 }
-.cid-ipJoobi3At H1 {
-  text-align: left;
-  color: #0f7699;
+.cid-synpJTbLMy .mbr-section-btn {
+  margin-left: -0.8rem;
 }
-.cid-ipJoobi3At P {
-  text-align: left;
-  color: #1b0c83;
+.cid-synpJTbLMy .text-content {
+  padding-right: 1.5rem;
 }
-.cid-ipJoobi3At .subtextcolor {
-  color: #cc2952;
+.cid-synpJTbLMy .mbr-text,
+.cid-synpJTbLMy .mbr-section-btn {
+  color: #767676;
+}
+.cid-synpJTbLMy .mbr-figure img {
+  -webkit-box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.3);
+  box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.3);
+  border-radius: .25rem;
+}
+.cid-synpJTbLMy .counter-container {
+  padding: 1rem 0;
+  position: relative;
+}
+.cid-synpJTbLMy .counter-container ul {
+  margin-bottom: 0;
+  padding-left: 1.5rem;
+}
+.cid-synpJTbLMy .counter-container ul li {
+  margin-bottom: 1rem;
+  list-style: none;
+}
+.cid-synpJTbLMy .counter-container ul li:before {
+  font-family: MobiriseIcons !important;
+  content: '\e966';
+  position: absolute;
+  left: 0px;
+  padding-top: 2px;
+  display: inline-block;
+  text-align: center;
+  margin: 4px 0px;
+  line-height: 10px;
+  transition: all .2s;
+  width: 16px;
+  height: 16px;
+  font-size: 16px !important;
+  font-weight: 500;
+  background: none;
+  color: #188ef4;
+}
+@media (max-width: 991px) {
+  .cid-synpJTbLMy .main-row {
+    margin: 0;
+  }
+  .cid-synpJTbLMy .mbr-section-title,
+  .cid-synpJTbLMy .mbr-text,
+  .cid-synpJTbLMy .list,
+  .cid-synpJTbLMy .mbr-section-btn {
+    text-align: center !important;
+  }
+  .cid-synpJTbLMy .text-content {
+    padding: 0;
+  }
 }
 .cid-sy9f3kZ5w1 .dropdown-item:before {
   font-family: MobiriseIcons !important;
@@ -1818,7 +1865,6 @@ section.lazy-placeholder:after {
   flex-direction: column;
   transition: all .3s;
   background: rgba(255, 255, 255, 0.85);
-  background: none;
 }
 @media (min-width: 992px) {
   .cid-sy9f3kZ5w1 .navbar.navbar-short {
@@ -2387,77 +2433,30 @@ section.lazy-placeholder:after {
     padding: 2rem !important;
   }
 }
-.cid-synpJTbLMy {
+.cid-ipJoobi3At {
   padding-top: 120px;
-  padding-bottom: 90px;
-  background-image: url("../../../assets/images/background4.jpg");
+  padding-bottom: 30px;
+  background-image: url("../../../assets/images/equipamento-de-proteo-individual.-1920x639.jpg");
 }
-.cid-synpJTbLMy .container {
-  backdrop-filter: blur(10px);
-  border: 1px solid white;
-  padding: 15px;
+.cid-ipJoobi3At .section-text {
+  text-align: left;
 }
-.cid-synpJTbLMy .mbr-overlay {
-  background: linear-gradient(90deg, #149dcc, #b2ccd2);
+.cid-ipJoobi3At .bgcolorjumb {
+  background-color: #ffffff;
+  padding: 4rem 2rem;
+  margin-bottom: 2rem;
+  border-radius: .3rem;
 }
-.cid-synpJTbLMy .mbr-section-btn {
-  margin-left: -0.8rem;
+.cid-ipJoobi3At H1 {
+  text-align: left;
+  color: #0f7699;
 }
-.cid-synpJTbLMy .text-content {
-  padding-right: 1.5rem;
+.cid-ipJoobi3At P {
+  text-align: left;
+  color: #1b0c83;
 }
-.cid-synpJTbLMy .mbr-text,
-.cid-synpJTbLMy .mbr-section-btn {
-  color: #767676;
-}
-.cid-synpJTbLMy .mbr-figure img {
-  -webkit-box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.3);
-  box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.3);
-  border-radius: .25rem;
-}
-.cid-synpJTbLMy .counter-container {
-  padding: 1rem 0;
-  position: relative;
-}
-.cid-synpJTbLMy .counter-container ul {
-  margin-bottom: 0;
-  padding-left: 1.5rem;
-}
-.cid-synpJTbLMy .counter-container ul li {
-  margin-bottom: 1rem;
-  list-style: none;
-}
-.cid-synpJTbLMy .counter-container ul li:before {
-  font-family: MobiriseIcons !important;
-  content: '\e966';
-  position: absolute;
-  left: 0px;
-  padding-top: 2px;
-  display: inline-block;
-  text-align: center;
-  margin: 4px 0px;
-  line-height: 10px;
-  transition: all .2s;
-  width: 16px;
-  height: 16px;
-  font-size: 16px !important;
-  font-weight: 500;
-  background: none;
-  color: #188ef4;
-}
-@media (max-width: 991px) {
-  .cid-synpJTbLMy .main-row {
-    margin: 0;
-  }
-  .cid-synpJTbLMy .mbr-section-title,
-  .cid-synpJTbLMy .mbr-text,
-  .cid-synpJTbLMy .list,
-  .cid-synpJTbLMy .mbr-section-btn {
-    text-align: center !important;
-  }
-  .cid-synpJTbLMy .text-content {
-    padding: 0;
-  }
+.cid-ipJoobi3At .subtextcolor {
+  color: #cc2952;
 }
 .cid-sy9f3kZ5w1 .dropdown-item:before {
   font-family: MobiriseIcons !important;
@@ -2610,7 +2609,7 @@ section.lazy-placeholder:after {
     padding-bottom: .25rem !important;
     padding-left: 0.5rem !important;
     padding-right: 0.5rem !important;
-    background: rgba(239, 239, 239, 0.95);
+    background: rgba(255, 207, 92, 0.95);
     text-align: center;
   }
   .cid-sy9f3kZ5w1 .navbar-brand {
@@ -2902,7 +2901,7 @@ section.lazy-placeholder:after {
   padding-bottom: .25rem !important;
   padding-left: 1.5rem !important;
   padding-right: 1.5rem !important;
-  background: rgba(239, 239, 239, 0.95);
+  background: rgba(255, 207, 92, 0.95);
   text-align: center;
   line-height: 1;
   transition: none;
@@ -3050,7 +3049,7 @@ section.lazy-placeholder:after {
 .cid-sy9f3kZ5w1 .TopMenuUnderline {
   border-style: solid;
   border-top-width: 0;
-  border-bottom-width: 0.25px;
+  border-bottom-width: 5px;
   border-left-width: 0;
   border-right-width: 0;
   border-color: #767676;
@@ -3088,8 +3087,8 @@ section.lazy-placeholder:after {
   border-right-width: 0;
   border-bottom-color: #232323;
   border-top-color: #232323;
-  background: rgba(245, 33, 16, 0) !important;
-  background: linear-gradient(to right, rgba(245, 33, 16, 0), rgba(255, 255, 255, 0), rgba(59, 196, 68, 0)) !important;
+  background: rgba(245, 33, 16, 0.25) !important;
+  background: linear-gradient(to right, rgba(245, 33, 16, 0.25), rgba(255, 255, 255, 0.25), rgba(59, 196, 68, 0.25)) !important;
   margin: 0;
   overflow: hidden;
   text-align: center;
@@ -3114,44 +3113,44 @@ section.lazy-placeholder:after {
   margin-right: 10px;
 }
 .cid-sy9f3kZ5w1 .topline-msg {
-  -moz-animation: Flash 2.6s infinite;
+  -moz-animation: Pulse 2.7s ease-out;
   -moz-animation-iteration-count: 5;
-  -webkit-animation: Flash 2.6s infinite;
+  -webkit-animation: Pulse 2.7s ease-out;
   -webkit-animation-iteration-count: 5;
-  animation: Flash 2.6s infinite;
+  animation: Pulse 2.7s ease-out;
   animation-iteration-count: 5;
 }
-@-moz-keyframes Flash {
+@-moz-keyframes Pulse {
   0% {
-    opacity: 1;
+    opacity: 0.5;
   }
   50% {
-    opacity: 0;
+    opacity: 1.0;
   }
   100% {
-    opacity: 1;
+    opacity: 0.5;
   }
 }
-@-webkit-keyframes Flash {
+@-webkit-keyframes Pulse {
   0% {
-    opacity: 1;
+    opacity: 0.5;
   }
   50% {
-    opacity: 0;
+    opacity: 1.0;
   }
   100% {
-    opacity: 1;
+    opacity: 0.5;
   }
 }
-@keyframes Flash {
+@keyframes Pulse {
   0% {
-    opacity: 1;
+    opacity: 0.5;
   }
   50% {
-    opacity: 0;
+    opacity: 1.0;
   }
   100% {
-    opacity: 1;
+    opacity: 0.5;
   }
 }
 .cid-sy9f3kZ5w1 img {
@@ -3192,7 +3191,7 @@ section.lazy-placeholder:after {
 @showTopLine: false;
 @showTopLineHamMenu: false;
 @showTopLineOnScroll: false;
-@TopLineEffect: "TopLineEffectFlash";
+@TopLineEffect: "TopLineEffectPulse";
 @TopLineEffectPulseSpeed: 2.7;
 @TopLineEffectPulseCount: 5;
 @TopLineEffectScrollSpeed: 15;
@@ -3201,7 +3200,7 @@ section.lazy-placeholder:after {
 @TopLineEffectFlashSpeed: 2.6;
 @TopLineEffectFlashCount: 5;
 @TopLineMouseHoverPause: true;
-@menuTopLineBgOpacity: 0;
+@menuTopLineBgOpacity: 0.25;
 @menuTopLineBgColor: #f52110;
 @menuTopLineBgGradientCol: true;
 @menuTopLineGradientBgStyle: "menuTopLineGradientBgLR3";
@@ -3222,7 +3221,7 @@ section.lazy-placeholder:after {
 @sticky: false;
 @collapsed: false;
 @showLogo: true;
-@logoSize: 4.1;
+@logoSize: 3.8;
 @logoSizeOnScrollDown: 3.8;
 @showBrand: true;
 @showBrandAllScreenPXWidth: true;
@@ -3244,10 +3243,10 @@ section.lazy-placeholder:after {
 @itemsHoverBkgChoice: false;
 @itemsHoverColBkg: #cccccc;
 @menuLineColor: #767676;
-@MenuUnderlineThicknessPX: 0.25;
+@MenuUnderlineThicknessPX: 5;
 @hamburgerColor: #232323;
 @HamL1menuBgColor: #ffffff;
-@HamL2menuBgColor: #efefef;
+@HamL2menuBgColor: #ffcf5c;
 @HamMenuBgOpacity: 0.95;
 @MenuBoxShadow: true;
 @SMBoxShadow: true;
@@ -4305,7 +4304,7 @@ overflow: hidden !important;
 @showTopLine: false;
 @showTopLineHamMenu: false;
 @showTopLineOnScroll: false;
-@TopLineEffect: "TopLineEffectFlash";
+@TopLineEffect: "TopLineEffectPulse";
 @TopLineEffectPulseSpeed: 2.7;
 @TopLineEffectPulseCount: 5;
 @TopLineEffectScrollSpeed: 15;
@@ -4314,7 +4313,7 @@ overflow: hidden !important;
 @TopLineEffectFlashSpeed: 2.6;
 @TopLineEffectFlashCount: 5;
 @TopLineMouseHoverPause: true;
-@menuTopLineBgOpacity: 0;
+@menuTopLineBgOpacity: 0.25;
 @menuTopLineBgColor: #f52110;
 @menuTopLineBgGradientCol: true;
 @menuTopLineGradientBgStyle: "menuTopLineGradientBgLR3";
@@ -4335,7 +4334,7 @@ overflow: hidden !important;
 @sticky: false;
 @collapsed: false;
 @showLogo: true;
-@logoSize: 4.1;
+@logoSize: 3.8;
 @logoSizeOnScrollDown: 3.8;
 @showBrand: true;
 @showBrandAllScreenPXWidth: true;
@@ -4357,10 +4356,10 @@ overflow: hidden !important;
 @itemsHoverBkgChoice: false;
 @itemsHoverColBkg: #cccccc;
 @menuLineColor: #767676;
-@MenuUnderlineThicknessPX: 0.25;
+@MenuUnderlineThicknessPX: 5;
 @hamburgerColor: #232323;
 @HamL1menuBgColor: #ffffff;
-@HamL2menuBgColor: #efefef;
+@HamL2menuBgColor: #ffcf5c;
 @HamMenuBgOpacity: 0.95;
 @MenuBoxShadow: true;
 @SMBoxShadow: true;
@@ -5476,7 +5475,7 @@ background-color: @bgColor;
     padding-bottom: .25rem !important;
     padding-left: 0.5rem !important;
     padding-right: 0.5rem !important;
-    background: rgba(239, 239, 239, 0.95);
+    background: rgba(255, 207, 92, 0.95);
     text-align: center;
   }
   .cid-sy9f3kZ5w1 .navbar-brand {
@@ -5768,7 +5767,7 @@ background-color: @bgColor;
   padding-bottom: .25rem !important;
   padding-left: 1.5rem !important;
   padding-right: 1.5rem !important;
-  background: rgba(239, 239, 239, 0.95);
+  background: rgba(255, 207, 92, 0.95);
   text-align: center;
   line-height: 1;
   transition: none;
@@ -5916,7 +5915,7 @@ background-color: @bgColor;
 .cid-sy9f3kZ5w1 .TopMenuUnderline {
   border-style: solid;
   border-top-width: 0;
-  border-bottom-width: 0.25px;
+  border-bottom-width: 5px;
   border-left-width: 0;
   border-right-width: 0;
   border-color: #767676;
@@ -5954,8 +5953,8 @@ background-color: @bgColor;
   border-right-width: 0;
   border-bottom-color: #232323;
   border-top-color: #232323;
-  background: rgba(245, 33, 16, 0) !important;
-  background: linear-gradient(to right, rgba(245, 33, 16, 0), rgba(255, 255, 255, 0), rgba(59, 196, 68, 0)) !important;
+  background: rgba(245, 33, 16, 0.25) !important;
+  background: linear-gradient(to right, rgba(245, 33, 16, 0.25), rgba(255, 255, 255, 0.25), rgba(59, 196, 68, 0.25)) !important;
   margin: 0;
   overflow: hidden;
   text-align: center;
@@ -5980,44 +5979,44 @@ background-color: @bgColor;
   margin-right: 10px;
 }
 .cid-sy9f3kZ5w1 .topline-msg {
-  -moz-animation: Flash 2.6s infinite;
+  -moz-animation: Pulse 2.7s ease-out;
   -moz-animation-iteration-count: 5;
-  -webkit-animation: Flash 2.6s infinite;
+  -webkit-animation: Pulse 2.7s ease-out;
   -webkit-animation-iteration-count: 5;
-  animation: Flash 2.6s infinite;
+  animation: Pulse 2.7s ease-out;
   animation-iteration-count: 5;
 }
-@-moz-keyframes Flash {
+@-moz-keyframes Pulse {
   0% {
-    opacity: 1;
+    opacity: 0.5;
   }
   50% {
-    opacity: 0;
+    opacity: 1.0;
   }
   100% {
-    opacity: 1;
+    opacity: 0.5;
   }
 }
-@-webkit-keyframes Flash {
+@-webkit-keyframes Pulse {
   0% {
-    opacity: 1;
+    opacity: 0.5;
   }
   50% {
-    opacity: 0;
+    opacity: 1.0;
   }
   100% {
-    opacity: 1;
+    opacity: 0.5;
   }
 }
-@keyframes Flash {
+@keyframes Pulse {
   0% {
-    opacity: 1;
+    opacity: 0.5;
   }
   50% {
-    opacity: 0;
+    opacity: 1.0;
   }
   100% {
-    opacity: 1;
+    opacity: 0.5;
   }
 }
 .cid-sy9f3kZ5w1 img {
@@ -6177,7 +6176,7 @@ background-color: @bgColor;
     padding-bottom: .25rem !important;
     padding-left: 0.5rem !important;
     padding-right: 0.5rem !important;
-    background: rgba(239, 239, 239, 0.95);
+    background: rgba(255, 207, 92, 0.95);
     text-align: center;
   }
   .cid-sy9f3kZ5w1 .navbar-brand {
@@ -6469,7 +6468,7 @@ background-color: @bgColor;
   padding-bottom: .25rem !important;
   padding-left: 1.5rem !important;
   padding-right: 1.5rem !important;
-  background: rgba(239, 239, 239, 0.95);
+  background: rgba(255, 207, 92, 0.95);
   text-align: center;
   line-height: 1;
   transition: none;
@@ -6617,7 +6616,7 @@ background-color: @bgColor;
 .cid-sy9f3kZ5w1 .TopMenuUnderline {
   border-style: solid;
   border-top-width: 0;
-  border-bottom-width: 0.25px;
+  border-bottom-width: 5px;
   border-left-width: 0;
   border-right-width: 0;
   border-color: #767676;
@@ -6655,8 +6654,8 @@ background-color: @bgColor;
   border-right-width: 0;
   border-bottom-color: #232323;
   border-top-color: #232323;
-  background: rgba(245, 33, 16, 0) !important;
-  background: linear-gradient(to right, rgba(245, 33, 16, 0), rgba(255, 255, 255, 0), rgba(59, 196, 68, 0)) !important;
+  background: rgba(245, 33, 16, 0.25) !important;
+  background: linear-gradient(to right, rgba(245, 33, 16, 0.25), rgba(255, 255, 255, 0.25), rgba(59, 196, 68, 0.25)) !important;
   margin: 0;
   overflow: hidden;
   text-align: center;
@@ -6681,44 +6680,44 @@ background-color: @bgColor;
   margin-right: 10px;
 }
 .cid-sy9f3kZ5w1 .topline-msg {
-  -moz-animation: Flash 2.6s infinite;
+  -moz-animation: Pulse 2.7s ease-out;
   -moz-animation-iteration-count: 5;
-  -webkit-animation: Flash 2.6s infinite;
+  -webkit-animation: Pulse 2.7s ease-out;
   -webkit-animation-iteration-count: 5;
-  animation: Flash 2.6s infinite;
+  animation: Pulse 2.7s ease-out;
   animation-iteration-count: 5;
 }
-@-moz-keyframes Flash {
+@-moz-keyframes Pulse {
   0% {
-    opacity: 1;
+    opacity: 0.5;
   }
   50% {
-    opacity: 0;
+    opacity: 1.0;
   }
   100% {
-    opacity: 1;
+    opacity: 0.5;
   }
 }
-@-webkit-keyframes Flash {
+@-webkit-keyframes Pulse {
   0% {
-    opacity: 1;
+    opacity: 0.5;
   }
   50% {
-    opacity: 0;
+    opacity: 1.0;
   }
   100% {
-    opacity: 1;
+    opacity: 0.5;
   }
 }
-@keyframes Flash {
+@keyframes Pulse {
   0% {
-    opacity: 1;
+    opacity: 0.5;
   }
   50% {
-    opacity: 0;
+    opacity: 1.0;
   }
   100% {
-    opacity: 1;
+    opacity: 0.5;
   }
 }
 .cid-sy9f3kZ5w1 img {
@@ -6878,7 +6877,7 @@ background-color: @bgColor;
     padding-bottom: .25rem !important;
     padding-left: 0.5rem !important;
     padding-right: 0.5rem !important;
-    background: rgba(239, 239, 239, 0.95);
+    background: rgba(255, 207, 92, 0.95);
     text-align: center;
   }
   .cid-szyJ49DZNw .navbar-brand {
@@ -7170,7 +7169,7 @@ background-color: @bgColor;
   padding-bottom: .25rem !important;
   padding-left: 1.5rem !important;
   padding-right: 1.5rem !important;
-  background: rgba(239, 239, 239, 0.95);
+  background: rgba(255, 207, 92, 0.95);
   text-align: center;
   line-height: 1;
   transition: none;
@@ -7318,7 +7317,7 @@ background-color: @bgColor;
 .cid-szyJ49DZNw .TopMenuUnderline {
   border-style: solid;
   border-top-width: 0;
-  border-bottom-width: 0.25px;
+  border-bottom-width: 5px;
   border-left-width: 0;
   border-right-width: 0;
   border-color: #767676;
@@ -7356,8 +7355,8 @@ background-color: @bgColor;
   border-right-width: 0;
   border-bottom-color: #232323;
   border-top-color: #232323;
-  background: rgba(245, 33, 16, 0) !important;
-  background: linear-gradient(to right, rgba(245, 33, 16, 0), rgba(255, 255, 255, 0), rgba(59, 196, 68, 0)) !important;
+  background: rgba(245, 33, 16, 0.25) !important;
+  background: linear-gradient(to right, rgba(245, 33, 16, 0.25), rgba(255, 255, 255, 0.25), rgba(59, 196, 68, 0.25)) !important;
   margin: 0;
   overflow: hidden;
   text-align: center;
@@ -7382,44 +7381,44 @@ background-color: @bgColor;
   margin-right: 10px;
 }
 .cid-szyJ49DZNw .topline-msg {
-  -moz-animation: Flash 2.6s infinite;
+  -moz-animation: Pulse 2.7s ease-out;
   -moz-animation-iteration-count: 5;
-  -webkit-animation: Flash 2.6s infinite;
+  -webkit-animation: Pulse 2.7s ease-out;
   -webkit-animation-iteration-count: 5;
-  animation: Flash 2.6s infinite;
+  animation: Pulse 2.7s ease-out;
   animation-iteration-count: 5;
 }
-@-moz-keyframes Flash {
+@-moz-keyframes Pulse {
   0% {
-    opacity: 1;
+    opacity: 0.5;
   }
   50% {
-    opacity: 0;
+    opacity: 1.0;
   }
   100% {
-    opacity: 1;
+    opacity: 0.5;
   }
 }
-@-webkit-keyframes Flash {
+@-webkit-keyframes Pulse {
   0% {
-    opacity: 1;
+    opacity: 0.5;
   }
   50% {
-    opacity: 0;
+    opacity: 1.0;
   }
   100% {
-    opacity: 1;
+    opacity: 0.5;
   }
 }
-@keyframes Flash {
+@keyframes Pulse {
   0% {
-    opacity: 1;
+    opacity: 0.5;
   }
   50% {
-    opacity: 0;
+    opacity: 1.0;
   }
   100% {
-    opacity: 1;
+    opacity: 0.5;
   }
 }
 .cid-szyJ49DZNw img {
@@ -7588,7 +7587,7 @@ background-color: @bgColor;
     padding-bottom: .25rem !important;
     padding-left: 0.5rem !important;
     padding-right: 0.5rem !important;
-    background: rgba(239, 239, 239, 0.95);
+    background: rgba(255, 207, 92, 0.95);
     text-align: center;
   }
   .cid-sy9f3kZ5w1 .navbar-brand {
@@ -7880,7 +7879,7 @@ background-color: @bgColor;
   padding-bottom: .25rem !important;
   padding-left: 1.5rem !important;
   padding-right: 1.5rem !important;
-  background: rgba(239, 239, 239, 0.95);
+  background: rgba(255, 207, 92, 0.95);
   text-align: center;
   line-height: 1;
   transition: none;
@@ -8028,7 +8027,7 @@ background-color: @bgColor;
 .cid-sy9f3kZ5w1 .TopMenuUnderline {
   border-style: solid;
   border-top-width: 0;
-  border-bottom-width: 0.25px;
+  border-bottom-width: 5px;
   border-left-width: 0;
   border-right-width: 0;
   border-color: #767676;
@@ -8066,8 +8065,8 @@ background-color: @bgColor;
   border-right-width: 0;
   border-bottom-color: #232323;
   border-top-color: #232323;
-  background: rgba(245, 33, 16, 0) !important;
-  background: linear-gradient(to right, rgba(245, 33, 16, 0), rgba(255, 255, 255, 0), rgba(59, 196, 68, 0)) !important;
+  background: rgba(245, 33, 16, 0.25) !important;
+  background: linear-gradient(to right, rgba(245, 33, 16, 0.25), rgba(255, 255, 255, 0.25), rgba(59, 196, 68, 0.25)) !important;
   margin: 0;
   overflow: hidden;
   text-align: center;
@@ -8092,44 +8091,44 @@ background-color: @bgColor;
   margin-right: 10px;
 }
 .cid-sy9f3kZ5w1 .topline-msg {
-  -moz-animation: Flash 2.6s infinite;
+  -moz-animation: Pulse 2.7s ease-out;
   -moz-animation-iteration-count: 5;
-  -webkit-animation: Flash 2.6s infinite;
+  -webkit-animation: Pulse 2.7s ease-out;
   -webkit-animation-iteration-count: 5;
-  animation: Flash 2.6s infinite;
+  animation: Pulse 2.7s ease-out;
   animation-iteration-count: 5;
 }
-@-moz-keyframes Flash {
+@-moz-keyframes Pulse {
   0% {
-    opacity: 1;
+    opacity: 0.5;
   }
   50% {
-    opacity: 0;
+    opacity: 1.0;
   }
   100% {
-    opacity: 1;
+    opacity: 0.5;
   }
 }
-@-webkit-keyframes Flash {
+@-webkit-keyframes Pulse {
   0% {
-    opacity: 1;
+    opacity: 0.5;
   }
   50% {
-    opacity: 0;
+    opacity: 1.0;
   }
   100% {
-    opacity: 1;
+    opacity: 0.5;
   }
 }
-@keyframes Flash {
+@keyframes Pulse {
   0% {
-    opacity: 1;
+    opacity: 0.5;
   }
   50% {
-    opacity: 0;
+    opacity: 1.0;
   }
   100% {
-    opacity: 1;
+    opacity: 0.5;
   }
 }
 .cid-sy9f3kZ5w1 img {
@@ -8289,7 +8288,7 @@ background-color: @bgColor;
     padding-bottom: .25rem !important;
     padding-left: 0.5rem !important;
     padding-right: 0.5rem !important;
-    background: rgba(239, 239, 239, 0.95);
+    background: rgba(255, 207, 92, 0.95);
     text-align: center;
   }
   .cid-sy9f3kZ5w1 .navbar-brand {
@@ -8581,7 +8580,7 @@ background-color: @bgColor;
   padding-bottom: .25rem !important;
   padding-left: 1.5rem !important;
   padding-right: 1.5rem !important;
-  background: rgba(239, 239, 239, 0.95);
+  background: rgba(255, 207, 92, 0.95);
   text-align: center;
   line-height: 1;
   transition: none;
@@ -8729,7 +8728,7 @@ background-color: @bgColor;
 .cid-sy9f3kZ5w1 .TopMenuUnderline {
   border-style: solid;
   border-top-width: 0;
-  border-bottom-width: 0.25px;
+  border-bottom-width: 5px;
   border-left-width: 0;
   border-right-width: 0;
   border-color: #767676;
@@ -8767,8 +8766,8 @@ background-color: @bgColor;
   border-right-width: 0;
   border-bottom-color: #232323;
   border-top-color: #232323;
-  background: rgba(245, 33, 16, 0) !important;
-  background: linear-gradient(to right, rgba(245, 33, 16, 0), rgba(255, 255, 255, 0), rgba(59, 196, 68, 0)) !important;
+  background: rgba(245, 33, 16, 0.25) !important;
+  background: linear-gradient(to right, rgba(245, 33, 16, 0.25), rgba(255, 255, 255, 0.25), rgba(59, 196, 68, 0.25)) !important;
   margin: 0;
   overflow: hidden;
   text-align: center;
@@ -8793,44 +8792,44 @@ background-color: @bgColor;
   margin-right: 10px;
 }
 .cid-sy9f3kZ5w1 .topline-msg {
-  -moz-animation: Flash 2.6s infinite;
+  -moz-animation: Pulse 2.7s ease-out;
   -moz-animation-iteration-count: 5;
-  -webkit-animation: Flash 2.6s infinite;
+  -webkit-animation: Pulse 2.7s ease-out;
   -webkit-animation-iteration-count: 5;
-  animation: Flash 2.6s infinite;
+  animation: Pulse 2.7s ease-out;
   animation-iteration-count: 5;
 }
-@-moz-keyframes Flash {
+@-moz-keyframes Pulse {
   0% {
-    opacity: 1;
+    opacity: 0.5;
   }
   50% {
-    opacity: 0;
+    opacity: 1.0;
   }
   100% {
-    opacity: 1;
+    opacity: 0.5;
   }
 }
-@-webkit-keyframes Flash {
+@-webkit-keyframes Pulse {
   0% {
-    opacity: 1;
+    opacity: 0.5;
   }
   50% {
-    opacity: 0;
+    opacity: 1.0;
   }
   100% {
-    opacity: 1;
+    opacity: 0.5;
   }
 }
-@keyframes Flash {
+@keyframes Pulse {
   0% {
-    opacity: 1;
+    opacity: 0.5;
   }
   50% {
-    opacity: 0;
+    opacity: 1.0;
   }
   100% {
-    opacity: 1;
+    opacity: 0.5;
   }
 }
 .cid-sy9f3kZ5w1 img {
@@ -9122,7 +9121,7 @@ background-color: @bgColor;
     padding-bottom: .25rem !important;
     padding-left: 0.5rem !important;
     padding-right: 0.5rem !important;
-    background: rgba(239, 239, 239, 0.95);
+    background: rgba(255, 207, 92, 0.95);
     text-align: center;
   }
   .cid-sy9f3kZ5w1 .navbar-brand {
@@ -9414,7 +9413,7 @@ background-color: @bgColor;
   padding-bottom: .25rem !important;
   padding-left: 1.5rem !important;
   padding-right: 1.5rem !important;
-  background: rgba(239, 239, 239, 0.95);
+  background: rgba(255, 207, 92, 0.95);
   text-align: center;
   line-height: 1;
   transition: none;
@@ -9562,7 +9561,7 @@ background-color: @bgColor;
 .cid-sy9f3kZ5w1 .TopMenuUnderline {
   border-style: solid;
   border-top-width: 0;
-  border-bottom-width: 0.25px;
+  border-bottom-width: 5px;
   border-left-width: 0;
   border-right-width: 0;
   border-color: #767676;
@@ -9600,8 +9599,8 @@ background-color: @bgColor;
   border-right-width: 0;
   border-bottom-color: #232323;
   border-top-color: #232323;
-  background: rgba(245, 33, 16, 0) !important;
-  background: linear-gradient(to right, rgba(245, 33, 16, 0), rgba(255, 255, 255, 0), rgba(59, 196, 68, 0)) !important;
+  background: rgba(245, 33, 16, 0.25) !important;
+  background: linear-gradient(to right, rgba(245, 33, 16, 0.25), rgba(255, 255, 255, 0.25), rgba(59, 196, 68, 0.25)) !important;
   margin: 0;
   overflow: hidden;
   text-align: center;
@@ -9626,44 +9625,44 @@ background-color: @bgColor;
   margin-right: 10px;
 }
 .cid-sy9f3kZ5w1 .topline-msg {
-  -moz-animation: Flash 2.6s infinite;
+  -moz-animation: Pulse 2.7s ease-out;
   -moz-animation-iteration-count: 5;
-  -webkit-animation: Flash 2.6s infinite;
+  -webkit-animation: Pulse 2.7s ease-out;
   -webkit-animation-iteration-count: 5;
-  animation: Flash 2.6s infinite;
+  animation: Pulse 2.7s ease-out;
   animation-iteration-count: 5;
 }
-@-moz-keyframes Flash {
+@-moz-keyframes Pulse {
   0% {
-    opacity: 1;
+    opacity: 0.5;
   }
   50% {
-    opacity: 0;
+    opacity: 1.0;
   }
   100% {
-    opacity: 1;
+    opacity: 0.5;
   }
 }
-@-webkit-keyframes Flash {
+@-webkit-keyframes Pulse {
   0% {
-    opacity: 1;
+    opacity: 0.5;
   }
   50% {
-    opacity: 0;
+    opacity: 1.0;
   }
   100% {
-    opacity: 1;
+    opacity: 0.5;
   }
 }
-@keyframes Flash {
+@keyframes Pulse {
   0% {
-    opacity: 1;
+    opacity: 0.5;
   }
   50% {
-    opacity: 0;
+    opacity: 1.0;
   }
   100% {
-    opacity: 1;
+    opacity: 0.5;
   }
 }
 .cid-sy9f3kZ5w1 img {
@@ -9784,7 +9783,7 @@ background-color: @bgColor;
 @showTopLine: false;
 @showTopLineHamMenu: false;
 @showTopLineOnScroll: false;
-@TopLineEffect: "TopLineEffectFlash";
+@TopLineEffect: "TopLineEffectPulse";
 @TopLineEffectPulseSpeed: 2.7;
 @TopLineEffectPulseCount: 5;
 @TopLineEffectScrollSpeed: 15;
@@ -9793,7 +9792,7 @@ background-color: @bgColor;
 @TopLineEffectFlashSpeed: 2.6;
 @TopLineEffectFlashCount: 5;
 @TopLineMouseHoverPause: true;
-@menuTopLineBgOpacity: 0;
+@menuTopLineBgOpacity: 0.25;
 @menuTopLineBgColor: #f52110;
 @menuTopLineBgGradientCol: true;
 @menuTopLineGradientBgStyle: "menuTopLineGradientBgLR3";
@@ -9814,7 +9813,7 @@ background-color: @bgColor;
 @sticky: false;
 @collapsed: false;
 @showLogo: true;
-@logoSize: 4.1;
+@logoSize: 3.8;
 @logoSizeOnScrollDown: 3.8;
 @showBrand: true;
 @showBrandAllScreenPXWidth: true;
@@ -9836,10 +9835,10 @@ background-color: @bgColor;
 @itemsHoverBkgChoice: false;
 @itemsHoverColBkg: #cccccc;
 @menuLineColor: #767676;
-@MenuUnderlineThicknessPX: 0.25;
+@MenuUnderlineThicknessPX: 5;
 @hamburgerColor: #232323;
 @HamL1menuBgColor: #ffffff;
-@HamL2menuBgColor: #efefef;
+@HamL2menuBgColor: #ffcf5c;
 @HamMenuBgOpacity: 0.95;
 @MenuBoxShadow: true;
 @SMBoxShadow: true;
@@ -10955,7 +10954,7 @@ background-color: @bgColor;
     padding-bottom: .25rem !important;
     padding-left: 0.5rem !important;
     padding-right: 0.5rem !important;
-    background: rgba(239, 239, 239, 0.95);
+    background: rgba(255, 207, 92, 0.95);
     text-align: center;
   }
   .cid-sy9f3kZ5w1 .navbar-brand {
@@ -11247,7 +11246,7 @@ background-color: @bgColor;
   padding-bottom: .25rem !important;
   padding-left: 1.5rem !important;
   padding-right: 1.5rem !important;
-  background: rgba(239, 239, 239, 0.95);
+  background: rgba(255, 207, 92, 0.95);
   text-align: center;
   line-height: 1;
   transition: none;
@@ -11395,7 +11394,7 @@ background-color: @bgColor;
 .cid-sy9f3kZ5w1 .TopMenuUnderline {
   border-style: solid;
   border-top-width: 0;
-  border-bottom-width: 0.25px;
+  border-bottom-width: 5px;
   border-left-width: 0;
   border-right-width: 0;
   border-color: #767676;
@@ -11433,8 +11432,8 @@ background-color: @bgColor;
   border-right-width: 0;
   border-bottom-color: #232323;
   border-top-color: #232323;
-  background: rgba(245, 33, 16, 0) !important;
-  background: linear-gradient(to right, rgba(245, 33, 16, 0), rgba(255, 255, 255, 0), rgba(59, 196, 68, 0)) !important;
+  background: rgba(245, 33, 16, 0.25) !important;
+  background: linear-gradient(to right, rgba(245, 33, 16, 0.25), rgba(255, 255, 255, 0.25), rgba(59, 196, 68, 0.25)) !important;
   margin: 0;
   overflow: hidden;
   text-align: center;
@@ -11459,44 +11458,44 @@ background-color: @bgColor;
   margin-right: 10px;
 }
 .cid-sy9f3kZ5w1 .topline-msg {
-  -moz-animation: Flash 2.6s infinite;
+  -moz-animation: Pulse 2.7s ease-out;
   -moz-animation-iteration-count: 5;
-  -webkit-animation: Flash 2.6s infinite;
+  -webkit-animation: Pulse 2.7s ease-out;
   -webkit-animation-iteration-count: 5;
-  animation: Flash 2.6s infinite;
+  animation: Pulse 2.7s ease-out;
   animation-iteration-count: 5;
 }
-@-moz-keyframes Flash {
+@-moz-keyframes Pulse {
   0% {
-    opacity: 1;
+    opacity: 0.5;
   }
   50% {
-    opacity: 0;
+    opacity: 1.0;
   }
   100% {
-    opacity: 1;
+    opacity: 0.5;
   }
 }
-@-webkit-keyframes Flash {
+@-webkit-keyframes Pulse {
   0% {
-    opacity: 1;
+    opacity: 0.5;
   }
   50% {
-    opacity: 0;
+    opacity: 1.0;
   }
   100% {
-    opacity: 1;
+    opacity: 0.5;
   }
 }
-@keyframes Flash {
+@keyframes Pulse {
   0% {
-    opacity: 1;
+    opacity: 0.5;
   }
   50% {
-    opacity: 0;
+    opacity: 1.0;
   }
   100% {
-    opacity: 1;
+    opacity: 0.5;
   }
 }
 .cid-sy9f3kZ5w1 img {
@@ -11940,7 +11939,7 @@ background-color: @bgColor;
     padding-bottom: .25rem !important;
     padding-left: 0.5rem !important;
     padding-right: 0.5rem !important;
-    background: rgba(239, 239, 239, 0.95);
+    background: rgba(255, 207, 92, 0.95);
     text-align: center;
   }
   .cid-sy9f3kZ5w1 .navbar-brand {
@@ -12232,7 +12231,7 @@ background-color: @bgColor;
   padding-bottom: .25rem !important;
   padding-left: 1.5rem !important;
   padding-right: 1.5rem !important;
-  background: rgba(239, 239, 239, 0.95);
+  background: rgba(255, 207, 92, 0.95);
   text-align: center;
   line-height: 1;
   transition: none;
@@ -12380,7 +12379,7 @@ background-color: @bgColor;
 .cid-sy9f3kZ5w1 .TopMenuUnderline {
   border-style: solid;
   border-top-width: 0;
-  border-bottom-width: 0.25px;
+  border-bottom-width: 5px;
   border-left-width: 0;
   border-right-width: 0;
   border-color: #767676;
@@ -12418,8 +12417,8 @@ background-color: @bgColor;
   border-right-width: 0;
   border-bottom-color: #232323;
   border-top-color: #232323;
-  background: rgba(245, 33, 16, 0) !important;
-  background: linear-gradient(to right, rgba(245, 33, 16, 0), rgba(255, 255, 255, 0), rgba(59, 196, 68, 0)) !important;
+  background: rgba(245, 33, 16, 0.25) !important;
+  background: linear-gradient(to right, rgba(245, 33, 16, 0.25), rgba(255, 255, 255, 0.25), rgba(59, 196, 68, 0.25)) !important;
   margin: 0;
   overflow: hidden;
   text-align: center;
@@ -12444,44 +12443,44 @@ background-color: @bgColor;
   margin-right: 10px;
 }
 .cid-sy9f3kZ5w1 .topline-msg {
-  -moz-animation: Flash 2.6s infinite;
+  -moz-animation: Pulse 2.7s ease-out;
   -moz-animation-iteration-count: 5;
-  -webkit-animation: Flash 2.6s infinite;
+  -webkit-animation: Pulse 2.7s ease-out;
   -webkit-animation-iteration-count: 5;
-  animation: Flash 2.6s infinite;
+  animation: Pulse 2.7s ease-out;
   animation-iteration-count: 5;
 }
-@-moz-keyframes Flash {
+@-moz-keyframes Pulse {
   0% {
-    opacity: 1;
+    opacity: 0.5;
   }
   50% {
-    opacity: 0;
+    opacity: 1.0;
   }
   100% {
-    opacity: 1;
+    opacity: 0.5;
   }
 }
-@-webkit-keyframes Flash {
+@-webkit-keyframes Pulse {
   0% {
-    opacity: 1;
+    opacity: 0.5;
   }
   50% {
-    opacity: 0;
+    opacity: 1.0;
   }
   100% {
-    opacity: 1;
+    opacity: 0.5;
   }
 }
-@keyframes Flash {
+@keyframes Pulse {
   0% {
-    opacity: 1;
+    opacity: 0.5;
   }
   50% {
-    opacity: 0;
+    opacity: 1.0;
   }
   100% {
-    opacity: 1;
+    opacity: 0.5;
   }
 }
 .cid-sy9f3kZ5w1 img {
