@@ -1551,6 +1551,35 @@ section.lazy-placeholder:after {
 .cid-k3hmH6RhiX H4 {
   color: #ef023f;
 }
+.cid-KPihmgWEVz {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #ffffff;
+}
+.cid-KPihmgWEVz .colorbutton {
+  background-color: #e43f3f;
+  color: white!important;
+}
+.cid-KPihmgWEVz .input-group {
+  width: 100%;
+}
+.cid-KPihmgWEVz .form-control:focus {
+  box-shadow: none;
+}
+.cid-KPihmgWEVz .form-control::placeholder {
+  font-size: 0.95rem;
+  color: #aaa;
+  font-style: italic;
+}
+.cid-KPihmgWEVz .form-control-underlined {
+  border-width: 0;
+  border-bottom-width: 1px;
+  border-radius: 0;
+  padding-left: 0;
+}
+.cid-KPihmgWEVz H5 {
+  color: #232323;
+}
 .cid-synpJTbLMy {
   padding-top: 120px;
   padding-bottom: 90px;
@@ -1774,7 +1803,7 @@ section.lazy-placeholder:after {
     padding-bottom: .25rem !important;
     padding-left: 0.5rem !important;
     padding-right: 0.5rem !important;
-    background: rgba(239, 239, 239, 0.95);
+    background: rgba(255, 207, 92, 0.95);
     text-align: center;
   }
   .cid-sy9f3kZ5w1 .navbar-brand {
@@ -2066,7 +2095,7 @@ section.lazy-placeholder:after {
   padding-bottom: .25rem !important;
   padding-left: 1.5rem !important;
   padding-right: 1.5rem !important;
-  background: rgba(239, 239, 239, 0.95);
+  background: rgba(255, 207, 92, 0.95);
   text-align: center;
   line-height: 1;
   transition: none;
@@ -2214,7 +2243,7 @@ section.lazy-placeholder:after {
 .cid-sy9f3kZ5w1 .TopMenuUnderline {
   border-style: solid;
   border-top-width: 0;
-  border-bottom-width: 0.25px;
+  border-bottom-width: 5px;
   border-left-width: 0;
   border-right-width: 0;
   border-color: #767676;
@@ -2252,8 +2281,8 @@ section.lazy-placeholder:after {
   border-right-width: 0;
   border-bottom-color: #232323;
   border-top-color: #232323;
-  background: rgba(245, 33, 16, 0) !important;
-  background: linear-gradient(to right, rgba(245, 33, 16, 0), rgba(255, 255, 255, 0), rgba(59, 196, 68, 0)) !important;
+  background: rgba(245, 33, 16, 0.25) !important;
+  background: linear-gradient(to right, rgba(245, 33, 16, 0.25), rgba(255, 255, 255, 0.25), rgba(59, 196, 68, 0.25)) !important;
   margin: 0;
   overflow: hidden;
   text-align: center;
@@ -2278,44 +2307,44 @@ section.lazy-placeholder:after {
   margin-right: 10px;
 }
 .cid-sy9f3kZ5w1 .topline-msg {
-  -moz-animation: Flash 2.6s infinite;
+  -moz-animation: Pulse 2.7s ease-out;
   -moz-animation-iteration-count: 5;
-  -webkit-animation: Flash 2.6s infinite;
+  -webkit-animation: Pulse 2.7s ease-out;
   -webkit-animation-iteration-count: 5;
-  animation: Flash 2.6s infinite;
+  animation: Pulse 2.7s ease-out;
   animation-iteration-count: 5;
 }
-@-moz-keyframes Flash {
+@-moz-keyframes Pulse {
   0% {
-    opacity: 1;
+    opacity: 0.5;
   }
   50% {
-    opacity: 0;
+    opacity: 1.0;
   }
   100% {
-    opacity: 1;
+    opacity: 0.5;
   }
 }
-@-webkit-keyframes Flash {
+@-webkit-keyframes Pulse {
   0% {
-    opacity: 1;
+    opacity: 0.5;
   }
   50% {
-    opacity: 0;
+    opacity: 1.0;
   }
   100% {
-    opacity: 1;
+    opacity: 0.5;
   }
 }
-@keyframes Flash {
+@keyframes Pulse {
   0% {
-    opacity: 1;
+    opacity: 0.5;
   }
   50% {
-    opacity: 0;
+    opacity: 1.0;
   }
   100% {
-    opacity: 1;
+    opacity: 0.5;
   }
 }
 .cid-sy9f3kZ5w1 img {
