@@ -67,6 +67,75 @@
 
 </section>
 
+<section class="mbr-section cid-t16cClGzKC" id="design-block-t16cClGzKC">
+
+    
+
+<style>
+/* Let's not animate the contents of modal windows */
+.no-anim {
+    -webkit-animation: none !important;
+    -moz-animation: none !important;
+    -o-animation: none !important;
+    -ms-animation: none !important;
+    animation: none !important;
+}
+</style>
+
+
+<div style="padding:1rem" class="hidden">
+    <input type="button" class="btn btn-primary display-4" data-toggle="modal" value="Preview CALENDARIO" data-target="#CALENDARIO">
+    <input type="button" class="btn btn-primary display-4" data-toggle="modal" value="How to use" data-target="#CALENDARIOHelp">
+    This preview button will be removed on preview/publish.
+</div>
+
+<div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="CALENDARIO" aria-labelledby="CALENDARIOLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="no-anim modal-title">CALENDÁRIO</h5>
+                <a href="#" class="no-anim close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></a>
+            </div>
+            <p class="modal-body mbr-text align-left pb-3 mbr-fonts-style">Siga o calendario, para que podemos fazer nosso acompanhamento e tiver duvida é só contactar para podermos ajudar a você!</p>
+            <div class="modal-footer">
+                <div class="mbr-section-btn"><a href="#" class="no-anim btn btn-secondary display-4" data-dismiss="modal">Close</a></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade hidden" tabindex="-1" role="dialog" aria-hidden="true" id="CALENDARIOHelp" aria-labelledby="CALENDARIOHelpLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="h5 no-anim modal-title" id="CALENDARIOHelpLabel">Modal title</div>
+                <a href="#" class="no-anim close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></a>
+            </div>
+            <div class="modal-body">
+                Using your new modal is very easy. Simply create a new link, then click the "..." tab and enter the following as custom URL:<br><br>
+                <code>javascript:OpenModal('YourModalName')</code><br><br>
+                Replace 'YourModalName' with the name you chose.
+            </div>
+            <div class="modal-footer">
+                <div class="display-4">
+                    <a href="#" class="no-anim btn btn-secondary display-4" data-dismiss="modal">Close</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+if (typeof OpenModal === 'undefined') {
+    OpenModal = function(modalName) {
+        if ($('#' + modalName).length)
+            $('#' + modalName).modal('show');
+    }
+}
+</script>    
+
+</section>
+
 
   <script src="assets/web/assets/jquery/jquery.min.js"></script>
   <script src="assets/popper/popper.min.js"></script>
@@ -77,13 +146,13 @@
   <script src="assets/dropdown/js/nav-dropdown.js"></script>
   <script src="assets/dropdown/js/navbar-dropdown.js"></script>
   <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
-  <script src="assets/singa4real/shopcart.js"></script>
   <script src="assets/singa4real/plugin-backend.js"></script>
-  <script src="assets/theme/js/script.js"></script>
   <script src="assets/singa4real/singa4real-form.js"></script>
+  <script src="assets/theme/js/script.js"></script>
+  <script src="assets/singa4real/shopcart.js"></script>
   
   
- <div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i class="mbr-arrow-up-icon mbr-arrow-up-icon-cm cm-icon cm-icon-smallarrow-up"></i></a></div>
-    <input name="animation" type="hidden">
+  <input name="animation" type="hidden">
+   <div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i class="mbr-arrow-up-icon mbr-arrow-up-icon-cm cm-icon cm-icon-smallarrow-up"></i></a></div>
   </body>
 </html>
