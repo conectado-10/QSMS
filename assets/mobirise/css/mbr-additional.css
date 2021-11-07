@@ -1552,6 +1552,12 @@ section.lazy-placeholder:after {
 .cid-k3hmH6RhiX H4 {
   color: #ef023f;
 }
+.cid-CwvoYkO0WE {
+  background-color: #55b4d4;
+}
+.cid-CwvoYkO0WE .top {
+  fill: #efefef;
+}
 .cid-synpJTbLMy {
   padding-top: 120px;
   padding-bottom: 90px;
@@ -7681,6 +7687,17 @@ img {
 }
 .navbar-dropdown .navbar-brand span {
   vertical-align: middle;
+}
+}
+
+.cid-sO4EbbG9ES {
+@topcolor: #efefef;
+@bottomcolor: #55b4d4;
+@shape: "2";
+
+background-color: @bottomcolor;
+.top {
+  fill: @topcolor;
 }
 }
 
