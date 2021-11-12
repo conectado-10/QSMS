@@ -4604,6 +4604,9 @@ background-color: @bgColor;
 .cid-sOlp7pVetj table td {
   border-top: 1px solid #ffffff;
 }
+.cid-sOlp7pVetj table.table {
+  background: #00c48c;
+}
 .cid-sOlp7pVetj .dataTables_filter {
   text-align: right;
   margin-bottom: .5rem;
