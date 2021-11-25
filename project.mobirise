@@ -1631,7 +1631,7 @@
         {
           "_params": {
             "HTMLCode": "<script type=\"text/javascript\" async src=\"//l.getsitecontrol.com/y791lm48.js\"></script>",
-            "hideOnPublish": true,
+            "hideOnPublish": false,
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
